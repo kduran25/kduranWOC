@@ -11,7 +11,7 @@ body{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     height: 100%;
-    background-image: url(/Imagenes/fondo.png);
+    background-image: url(./Imagenes/fondo.png);
     background-size: contain;
 }
 header { 
@@ -214,7 +214,7 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 #comic1 {
-    background-image: url(/Imagenes/Captura.PNG);
+    background-image: url(./Imagenes/Captura.PNG);
     image-rendering: auto;
     background-size: cover;
 }
@@ -226,7 +226,7 @@ p {
     transform: scale(1.2,1.3);
 }
 #comic2 {
-    background-image: url(/Imagenes/Locke.jpg);
+    background-image: url(./Imagenes/Locke.jpg);
     image-rendering: auto;
     background-size: cover;
 }
@@ -238,7 +238,7 @@ p {
     transform: scale(1.2,1.3);
 }
 #comic3 {
-    background-image: url(/Imagenes/Spidey.PNG);
+    background-image: url(./Imagenes/Spidey.PNG);
     image-rendering: auto;
     background-size: cover;
 }
@@ -250,7 +250,7 @@ p {
     transform: scale(1.2,1.3);
 }
 #comic4 {
-    background-image: url(/Imagenes/Tboys.PNG);
+    background-image: url(./Imagenes/Tboys.PNG);
     image-rendering: auto;
     background-size: cover;
 }
