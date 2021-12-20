@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{margin: 0;
+padding: 0;}
+.clearfix {
+    clear: both;
+}
+body{ 
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background-image: url(/Imagenes/fondo.png);
+    background-size: contain;
+}
+header { 
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #002973;
+}
+
+#logo{
+    height: 80px;
+    width: 5%;
+    float: left;
+    background-color: #D90115;
+    color: white;
+}
+
+img {
+    height: 80PX;
+    width: 100px;
+}
+
+nav{
+    float: right;
+    height: 100px;
+    width: 95%;
+    position: relative;
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+nav a:hover{
+    color: #002973;
+}
+nav li {
+    display: table-cell;
+    list-style: none;
+    text-align: end;
+}
+#inicio {
+    height: 20px;
+    width: 35%;
+    color: white;
+    background-color:#D90115;
+    list-style-type: none;
+    padding: 1% 1% 1% 1%;  
+    justify-content: center;
+    margin-left: 65%;
+    border-style: solid gray;
+}
+
+div ul {
+    display: flex;
+    background-color: #002973;
+    margin-top: 7%;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 100%;
+    text-decoration-style: solid;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    flex-direction: row;
+    list-style-type: none;
+} 
+
+.letras li{ 
+    display: flex;
+    background-color: gray;
+    height: 40px;
+    width: 50px;
+    flex-flow: column wrap;
+}
+
+div table{
+    margin-top: 3%;
+    margin-left: 3%;
+    height: 1000px;
+    width: 90%;
+    background-color: #002973;
+}
+
+tr {
+    background-color: gray;
+    height: 8%;
+    width: 10%;
+}
+
+#comic1 {
+    background-image: url(/Imagenes/venta1.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 207px;
+}
+
+.c1 {
+    transition: all 2s;
+}
+
+.c1:hover {
+    background-color: red;
+    transform: skew(15deg);
+}
+
+#comic2 {
+    background-image: url(/Imagenes/Starwars\ DP.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 207px;
+}
+.c2 {
+    transition: all 2s;
+}
+
+.c2:hover {
+    background-color: red;
+    transform: skew(15deg);
+}
+
+#comic3 {
+    background-image: url(/Imagenes/DDevil.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 207px;
+}
+
+.c3 {
+    transition: all 2s;
+}
+
+.c3:hover {
+    background-color: red;
+    transform: skew(15deg);
+}
+#comic4 {
+    background-image: url(/Imagenes/Ashe.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 207px;
+}
+
+.c4 {
+    transition: all 2s;
+}
+
+.c4:hover {
+    background-color: red;
+    transform: skew(15deg);
+}
+
+.title {
+    color: black;
+    text-decoration: underline;
+}
+
+td  p{
+    height: 100px;
+    width: 60%;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+
+
+footer {
+    height: 100px;
+    width: 100%;
+    margin-top: 5%;
+    background-color: gray;
+    color: white;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+}
+h3{
+    text-align: left;
+}
