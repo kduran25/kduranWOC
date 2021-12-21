@@ -5,26 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="estilosfaq.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div  id="logo"> 
-                <a href="../index.html"><img src="../Imagenes/Logo.PNG"> </a>
-            </div>
-    <!--inicio de lista con secciones-->
-    <div class="clearfix"></div>
-        <ul id="inicio" type="disc">
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="../Comic List/Comiclist.html">COMIC LIST</a></li>
-            <li><a href="../Get Comic/Getcomic.html">GET COMIC</a></li>
-            <li><a href="../Form/contacto.html">HELP/CONTACT</a></li>
-            <li><a href="#">FAQ</a></li>
-        </ul><br>
-    <!--Fin de lista con secciones-->
-        </nav> <br>
-    </header><br>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>   
+        <header>
+    
+        <!--inicio de lista con secciones-->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" id="logo" href="index.html"><img class="logo" src="/Imagenes/Logo.PNG"></a>
+            
+            <!-- Links -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Comic List/Comiclist.html">COMIC LIST</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Get Comic/Getcomic.html">GET COMIC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Form/contacto.html">HELP/CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Faq-join discord/faq.html">FAQ</a>
+                    </li>
+                </ul>
+        </nav>
+          
+            </header><br>
     <div class="clearfix"></div>
     <div class="gridcontainer">
     <fieldset >
@@ -32,36 +55,59 @@
             <h4>PREGUNTAS FRECUENTES</h4>
             <table class="tabla">
                 <tr class=preguntas>
-                    <td><h5>¿Quienes somos?</h5></td>
-                    <td>respuesta</td>
+                    <td>
+                        <div class="container">
+                            <h4>¿QUIENES SOMOS?</h4>
+                            <a href="#demo" class="btn btn-primary" data-toggle="collapse">Respuesta</a>
+                            <div id="demo" class="collapse">
+                                Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
+                            </div>
+                            </div></a>
+                    </td>
                 </tr>
                 <tr class=preguntas>
-                    <td class="pregunta"><h5>¿Como realizar un cambio?</h5></td>
-                    <td class="respuesta">respuesta</td>
+                    <td class="respuesta">                        
+                        <div class="container">
+                        <h4>¿COMO REALIZAR UN CAMBIO?</h4>
+                        <a href="#demo" class="btn btn-primary" data-toggle="collapse">Respuesta</a>
+                        <div id="demo" class="collapse">
+                            Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
+                        </div>
+                        </div></a></td>
                 </tr>
                 <tr class=preguntas>
-                    <td class="pregunta"><h5>¿Como realizar un cambio?</h5></td>
-                    <td class="respuesta">respuesta</td>
+                    <td class="respuesta">                        
+                        <div class="container">
+                        <h4>¿COMO PUEDO COMUNICARME CON USTEDES?</h4>
+                        <a href="#demo" class="btn btn-primary" data-toggle="collapse">Respuesta</a>
+                        <div id="demo" class="collapse">
+                            Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
+                        </div>
+                        </div></a></td>
                 </tr>
                 <tr class=preguntas>
-                    <td class="pregunta"><h5>¿Como realizar un cambio?</h5></td>
-                    <td class="respuesta">respuesta</td>
-                </tr>
-                <tr class=preguntas>
-                    <td class="pregunta"><h5>¿Por que al intentar comprar me redirige a otra pagina?</h5></td>
-                    <td class="respuesta">respuesta</td>
+                    <td class="respuesta">                        
+                        <div class="container">
+                        <h4>¿POR QUE ME REDIRIGE A OTRA PAGINA CUANDO INTENTO COMPRAR?</h4>
+                        <a href="#demo" class="btn btn-primary" data-toggle="collapse">Respuesta</a>
+                        <div id="demo" class="collapse">
+                            Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
+                        </div>
+                        </div></a>
+                    </td>
                 </tr>
             </table>
         </div>
     </fieldset>
     </div>
     <footer>
-        <nav>
-            <h3>Redes sociales</h3>
-            <ul id="redes" type="none">
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <h4>Redes sociales</h4>
+                <ul class="navbar-nav" id="redes" type="none">
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/instagram.png"> </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/facebook.png"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/twitter.png"></a></li>
+                </ul>
         </nav>
     </footer>
     </html>
