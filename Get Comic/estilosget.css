@@ -113,7 +113,7 @@ td {
 }
 
 #comic3 {
-    background-image: url(/Imagenes/DDevil.jpg);
+background-image: url(/Imagenes/DDevil.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;
