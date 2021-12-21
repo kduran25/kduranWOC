@@ -5,88 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comic list</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="estiloslist.css">
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>   
     <header>
-        <nav>
-            <div  id="logo"> 
-                <a href="../index.html"><img src="../Imagenes/Logo.PNG"> </a>
-            </div>
-    <!--inicio de lista con secciones-->
-    <div class="clearfix"></div>
-        <ul id="inicio" type="disc">
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="#">COMIC LIST</a></li>
-            <li><a href="../Get Comic/Getcomic.html">GET COMIC</a></li>
-            <li><a href="../Form/contacto.html">HELP/CONTACT</a></li>
-            <li><a href="../Faq-join discord/faq.html">FAQ</a></li>
-        </ul><br>
-        </nav> <br>
+            <!--inicio de lista con secciones-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" id="logo" href="index.html"><img class="logo" src="/Imagenes/Logo.PNG"></a>
+        
+        <!-- Links -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">COMIC LIST</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Get Comic/Getcomic.html">GET COMIC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Form/contacto.html">HELP/CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Faq-join discord/faq.html">FAQ</a>
+                </li>
+            </ul>
+    </nav>
     </header><br>
     <div class="clearfix"></div>
-    <div class="gridcontainer">
-        <div class="busqueda">
-            <ul class="letras">  Busqueda por Letra
-                <li class="a"> <a href="#"> A </a></li>
-                <li class="b"> <a href="#"> B </a></li>
-                <li class="c"> <a href="#"> C </a></li>
-                <li class="d"> <a href="#"> D </a></li>
-                <li class="e"> <a href="#"> E </a></li>
-                <li class="f"> <a href="#"> F </a></li>
-                <li class="g"> <a href="#"> G </a></li>
-                <li class="h"> <a href="#"> H </a></li>
-                <li class="i"> <a href="#"> I </a></li>
-                <li class="j"> <a href="#"> J </a></li>
-                <li> <a href="#"> K </a></li>
-                <li> <a href="#"> L </a></li>
-                <li> <a href="#"> M </a></li>
-                <li> <a href="#"> N </a></li>
-                <li> <a href="#"> Ñ </a></li>
-                <li> <a href="#"> O </a></li>
-                <li> <a href="#"> P </a></li>
-                <li> <a href="#"> Q </a></li>
-                <li> <a href="#"> R </a></li>
-                <li> <a href="#"> S </a></li>
-                <li> <a href="#"> T </a></li>
-                <li> <a href="#"> U </a></li>
-                <li> <a href="#"> V </a></li>
-                <li> <a href="#"> W </a></li>
-                <li> <a href="#"> X </a></li>
-                <li> <a href="#"> Y </a></li>
-                <li> <a href="#"> Z </a></li>
-            </ul>
-        </div>
-        <div class="clearfix"></div>
-        <div class="tablas">
-            <table>
-                <tr>
-                    <td id="comic1" class="c1"></td>
-                    <td> <a href="https://drive.google.com/file/d/1SXYXsSPa4Gcb36kmKqA_q5db3A2EJV25/view?usp=sharing"><p> <strong class= title>Avatar Humo y sombra</strong><br> Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai. </p></a></td>
-                </tr>
-                <tr>
-                    <td id="comic2" class="c2"></td>
-                    <td><p> <a href="https://drive.google.com/file/d/1OG_IoECRHizYX8hgER_1RiuAvLHX7zfC/view?usp=sharing"><strong class= title>Locke & Key</strong><br> Es una serie escrita por Joe Hill (el hijo de Stephen King) con el arte del dibujante chileno Gabriel Rodríguez y publicada por IDW. En breves palabras, la historia se centra en Keyhouse, una mansión de Lovecraft, Massachussets cuyo misterio y encanto reside en que cada puerta de esta casa, puede trasportarte y transformarte. Puedes morir y ser un fantasma, puedes saltar dimensiones, puedes jugar con tus memorias, miedos y fantasías o hasta convertirte en otra persona. Todo ello suena divertido, hasta que te das cuenta que quienes habitan y merodean son capaces de cualquier cosa por matarte y hacerse con todas las llaves </p> </a> </td>
-                </tr>
-                <tr>
-                    <td id="comic3" class="c3"></td>
-                    <td><p> <a href="https://drive.google.com/file/d/1BnNbf39UE0z1ghygoT9FfrsNlZAjhTIG/view?usp=sharing"><strong class= title>The Amazing Spiderman Full Circle</strong><br> Una citación de S.H.I.E.L.D. lleva a Peter Parker a una aventura mundial que lo pondrá a prueba como nunca antes, ¡una en la que el futuro de toda la humanidad está en sus manos enguantadas y palmeadas! ¿Quién es el misterioso prisionero en la caja de acero que sigue impulsando el trepamuros hacia adelante? </p> </a> </td>
-                </tr>
-                <tr>
-                    <td id="comic4" class="c4"></td>
-                    <td><p> <a href="https://drive.google.com/file/d/1TVHkv0rfDIGFBFmr0tqM8lRmnnMY49ot/view?usp=sharing"><strong class= title>The Boys Vol. 1</strong><br> En un mundo en el que los superhéroes son unos degenerados corruptos controlados por una corporación, es necesario que alguien les mantenga a raya. Ese alguien son los miembros de The Boys, tipos duros y sin escrúpulos que han aceptado adquirir superpoderes para poder patear el culo de esos falsos superhéroes. </p> </a> </td>
-                </tr>
-            </table>
-        </div>
+    <div >
+        <table class="tablas">
+            <tr>
+                <td id="comic1" class="c1"></td>
+                <td> <a href="#">                    
+                    <div class="container">
+                    <h4>Avatar Humo y sombra pt.1</h4>
+                    <a href="#demo" class="btn btn-primary" data-toggle="collapse">Sinopsis</a>
+                    <div id="demo" class="collapse">
+                            Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
+                    </div>
+                    </div></a>
+                </td>
+            </tr>
+            <tr>
+                <td id="comic2" class="c2"></td>
+                <td><a href="#">             
+                    <div class="container">
+                    <h4>Locke & Key</h4>
+                    <a href="#demo" class="btn btn-primary" data-toggle="collapse">Sinopsis</a>
+                    <div id="demo" class="collapse">
+                            Es una serie escrita por Joe Hill (el hijo de Stephen King) con el arte del dibujante chileno Gabriel Rodríguez y publicada por IDW. En breves palabras, la historia se centra en Keyhouse, una mansión de Lovecraft, Massachussets cuyo misterio y encanto reside en que cada puerta de esta casa, puede trasportarte y transformarte. Puedes morir y ser un fantasma, puedes saltar dimensiones, puedes jugar con tus memorias, miedos y fantasías o hasta convertirte en otra persona. Todo ello suena divertido, hasta que te das cuenta que quienes habitan y merodean son capaces de cualquier cosa por matarte y hacerse con todas las llaves 
+                    </div>
+                    </div> </a> 
+                </td>
+            </tr>
+            <tr>
+                <td id="comic3" class="c3"></td>
+                <td><a href="../Imagenes/ASpidey/Amazing Spider-Man - Full Circle 001-000.pdf" >
+                    <div class="container">
+                    <h4>The Amazing Spiderman Full Circle</h4>
+                    <a href="#demo" class="btn btn-primary" data-toggle="collapse">Sinopsis</a>
+                    <div id="demo" class="collapse">
+                        Una citación de S.H.I.E.L.D. lleva a Peter Parker a una aventura mundial que lo pondrá a prueba como nunca antes, ¡una en la que el futuro de toda la humanidad está en sus manos enguantadas y palmeadas! ¿Quién es el misterioso prisionero en la caja de acero que sigue impulsando el trepamuros hacia adelante? 
+                    </div>
+                    </div></a> 
+                </td>
+            </tr>
+            <tr>
+                <td id="comic4" class="c4"></td>
+                <td><a href="../Imagenes/TBoys/The Boys 01 page 01.pdf"><strong class= title></strong>
+                    <div class="container">
+                        <h4>The Boys Vol. 1</h4>
+                        <a href="#demo" class="btn btn-primary" data-toggle="collapse">Sinopsis</a>
+                        <div id="demo" class="collapse">
+                        En un mundo en el que los superhéroes son unos degenerados corruptos controlados por una corporación, es necesario que alguien les mantenga a raya. Ese alguien son los miembros de The Boys, tipos duros y sin escrúpulos que han aceptado adquirir superpoderes para poder patear el culo de esos falsos superhéroes.
+                        </div>
+                    </div></a> 
+                </td>
+            </tr>
+        </table>
+    </div>
     </div>
     <div class="clearfix"></div>
-    <footer>
-        <nav>
-            <h3>Redes sociales</h3>
-            <ul id="redes" type="none">
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-        </nav>
-    </footer>
+    <div class="container">                 
+        <ul class="pagination justify-content-center pagination-dark">
+          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">6</a></li>
+          <li class="page-item"><a class="page-link" href="#">7</a></li>
+          <li class="page-item"><a class="page-link" href="#">8</a></li>
+          <li class="page-item"><a class="page-link" href="#">9</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </div>
+<footer>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <h4>Redes sociales</h4>
+            <ul class="navbar-nav" id="redes" type="none">
+                <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/instagram.png"> </a> </li>
+                <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/facebook.png"></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/twitter.png"></a></li>
+            </ul>
+    </nav>
+</footer>
     </html>
