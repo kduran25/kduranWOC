@@ -5,66 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="estiloshelp.css">
 </head>
 <body>
-    <div class="gridcontainer" >
-        <header>
-            <nav>
-                <div  id="logo"> 
-                    <a href="../index.html"><img src="../Imagenes/Logo.PNG"> </a>
-                </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>   
+    <header>
+
     <!--inicio de lista con secciones-->
-        <div class="clearfix"></div>
-            <ul id="inicio" type="disc">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="../Comic List/Comiclist.html">COMIC LIST</a></li>
-                <li><a href="../Get Comic/Getcomic.html">GET COMIC</a></li>
-                <li><a href="#">HELP/CONTACT</a></li>
-                <li><a href="../Faq-join discord/faq.html">FAQ</a></li>
-            </ul><br>
-            </nav> <br>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" id="logo" href="index.html"><img class="logo" src="/Imagenes/Logo.PNG"></a>
+        
+        <!-- Links -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Comic List/Comiclist.html">COMIC LIST</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Get Comic/Getcomic.html">GET COMIC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Form/contacto.html">HELP/CONTACT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Faq-join discord/faq.html">FAQ</a>
+                </li>
+            </ul>
+    </nav>
+      
         </header><br>
         <div class="clearfix"></div>
         <fieldset>
         <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
-            <h2>Contacto</h2>
-            <div class="clearfix"></div>
-            <h5 id="Name">Nombre y Apellido</h5> <input type="text" required><br>
+            
+            <div class="container">
+                <h2>¿Te encuentras registrado?</h2>
+                <form action="/action_page.php">
+                  <div class="form-check">
+                    <label class="form-check-label" for="check1">
+                      <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>SI
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="">NO
+                    </label>
+                  </div>
             <!--Espaciado visual--><br>
-            <h5>Email</h5> <input type="email" required><br>
-            <!--Espaciado visual--><br>
-            <h5>Edad</h5> <input type="number"> <br>
-            <!--implementar placeholder --><br>
-            <h5>Numero de Contacto</h5> <input type="text" required placeholder="Phone number"> <br>
-            <!--implementar placeholder --><br>
-            <h5>¿Te encuentras Registrado?</h5><input type="checkbox" value="Si"><br>
-            <!--Espaciado visual--><br>
-            <h5>Selecciona un medio de contacto de tu Preferencia</h5> <select name="Via de contacto">
-            <option>Cualquier</option>
-            <option>Via Telefonica</option>
-            <option>Correo Electronico</option>
-            <option>Whatsapp</option>
-            </select><br>
-        <!--Espaciado visual--><br>
-            <h5>Adjunta un archivo</h5> <input type="file"> <br>
-            <!--Espaciado visual--><br>
-        <!--------Area de texto--------------------------------------------><br>
-            <h5>Comentarios:</h5>
-            <textarea name="areadetexto" id="" cols="30" rows="5" placeholder="escribe tu comentario"></textarea> <br>
-            <input type="submit" value="Enviar Formulario">
-            <input type="reset" value="Limpiar Formulario"><br>
+            <h2>Selecciona un medio de contacto de tu Preferencia</h2> <br>
+            <select name="Via de Contacto" class="custom-select mb-3">
+                <option selected>Cualquier</option>
+                <option value="volvo">Whatsapp</option>
+                <option value="fiat">Via Telefonica</option>
+                <option value="audi">Correo Electronico</option>
+              </select>
+        <!--------Area de texto-------------------------------------------->
+        <label class="h5" for="demo">Write your email here:</label>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email" id="demo" name="email">
+          <div class="input-group-append">
+            <span class="input-group-text">@example.com</span>
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="usr">Nombre:</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="usr" required placeholder="Phone number">Numero de telefono</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+        <div class="container">
+            <h2>Comentarios</h2>
+            <form action="/action_page.php">
+              <div class="form-group">
+                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar Formulario</button>
+              <input type="reset" value="Limpiar Formulario"><input type="file"> <br>
+            </form>
+          </div>
+
         <!--Espaciado visual--><br>
         </fieldset>
         <div class="clearfix"></div>   
     </div> 
     <footer>
-        <nav>
-            <h3>Redes sociales</h3>
-            <ul id="redes" type="none">
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <h4>Redes sociales</h4>
+                <ul class="navbar-nav" id="redes" type="none">
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/instagram.png"> </a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/facebook.png"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/twitter.png"></a></li>
+                </ul>
         </nav>
     </footer>
     </html>
