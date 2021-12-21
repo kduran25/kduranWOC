@@ -28,7 +28,11 @@ header {
     float: left;
     color: white;
 } 
-
+.fondo {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
 img {
     height: 80PX;
     width: 100px;
