@@ -188,7 +188,7 @@ p {
     background-size: cover;
 }
 #comic1 {
-    transition: all 2s;
+    transition: all 2s;                     
 }
 #comic1:hover {
     background-color: red;
@@ -362,7 +362,7 @@ img{
         width: 80%;
         height: 400px;
         margin-left: 4%;
-        margin-top: 45%;
+        margin-top: 58%;
         margin-bottom: 3%;
         border: solid gray;
     }
