@@ -12,7 +12,7 @@ body{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     height: 100%;
-    background-image:url(./Imagenes/fondo.png);
+    background-image:url(../Imagenes/fondo.jpg);
     background-size: contain;
 }
 header { 
@@ -75,46 +75,22 @@ img{
     width: 30px;
 }
 
+
 @media only screen and (max-width: 360px) {
     fieldset {
         background-color: gray;
         border-color: #D90115;
-        height: 1200px;
-        width: 100%;
         margin-top: 40%;
+        height: 1200px;
         text-align: center;
     }
-    nav a{
-        color: white;
-        text-transform: capitalize;
-    }
 
-    nav a:hover{
-        color: #002973;
-    }
-    nav li {
-        font-size: 10px;
-        display: table-cell;
-        list-style: none;
-        text-align: end;
-    }
-    #inicio {
-        height: 20px;
-        width: 100%;
-        color: white;
-        background-color:#D90115;
-        list-style-type: none;
-        padding: 1% 1% 1% 1%;  
-        justify-content: center;
-        border-style: solid white;
-    }
 }
     @media only screen and (min-width: 361px) and (max-width: 750px) {
         fieldset {
             background-color: gray;
             border-color: #D90115;
             height: 1200px;
-            width: 100%;
             margin-top: 40%;
             text-align: center;
         }
