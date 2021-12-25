@@ -10,7 +10,7 @@ body{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     height: 100%;
-    background-image: url(./Imagenes/fondo.png);
+    background-image: url(../Imagenes/fondo.png);
     background-size: contain;
 }
 header { 
@@ -43,25 +43,7 @@ img {
     width: 100px;
 }
 
-nav{
-    height: 100px;
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
-nav a{
-    color: white;
-    text-transform: capitalize;
-    margin-left: 20px;
-}
-nav a:hover{
-    color: #002973;
-}
-nav li {
-    display: table-cell;
-    list-style: none;
-    text-align: end;
-}
+
 
 .tablas{
     margin-top: 10%;
@@ -82,7 +64,7 @@ td {
 }
 
 #comic1 {
-    background-image: url(./Imagenes/venta1.jpg);
+    background-image: url(../Imagenes/venta1.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;
@@ -98,7 +80,7 @@ td {
 }
 
 #comic2 {
-    background-image: url(./Imagenes/Starwars\DP.jpg);
+    background-image: url(../Imagenes/Starwars\DP.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;
@@ -113,7 +95,7 @@ td {
 }
 
 #comic3 {
-background-image: url(./Imagenes/DDevil.jpg);
+background-image: url(../Imagenes/DDevil.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;
@@ -128,7 +110,7 @@ background-image: url(./Imagenes/DDevil.jpg);
     transform: skew(15deg);
 }
 #comic4 {
-    background-image: url(./Imagenes/Ashe.jpg);
+    background-image: url(../Imagenes/Ashe.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;
@@ -159,4 +141,35 @@ footer {
 img{
     height: 25px;
     width: 30px;
+}
+@media only screen and (max-width: 360px) {
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(17 / 50%);
+    }
+    .tablas{
+        margin-top: 75%;
+    }
+}
+@media only screen and (min-width: 361px) and (max-width: 750px) {
+    
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(10 / 50%);
+    }
+    .tablas{
+        margin-top: 75%;
+    }
+}
+@media only screen and (min-width: 751px) and (max-width: 1050px) {
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(10 / 50%);
+    }
+    .tablas{
+        margin-top: 20%;
+    }
 }
