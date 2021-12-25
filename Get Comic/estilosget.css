@@ -10,7 +10,7 @@ body{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     height: 100%;
-    background-image: url(/Imagenes/fondo.png);
+    background-image: url(./Imagenes/fondo.png);
     background-size: contain;
 }
 header { 
@@ -28,7 +28,7 @@ a {
 }
 
 a:hover{
-    color: yellow;
+    color: #92e2f7;
 }
 
 .logo{
@@ -82,7 +82,7 @@ td {
 }
 
 #comic1 {
-    background-image: url(/Imagenes/venta1.jpg);
+    background-image: url(./Imagenes/venta1.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;
@@ -98,7 +98,7 @@ td {
 }
 
 #comic2 {
-    background-image: url(/Imagenes/Starwars\ DP.jpg);
+    background-image: url(./Imagenes/Starwars\ DP.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;
@@ -113,7 +113,7 @@ td {
 }
 
 #comic3 {
-background-image: url(/Imagenes/DDevil.jpg);
+background-image: url(./Imagenes/DDevil.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;
@@ -128,7 +128,7 @@ background-image: url(/Imagenes/DDevil.jpg);
     transform: skew(15deg);
 }
 #comic4 {
-    background-image: url(/Imagenes/Ashe.jpg);
+    background-image: url(./Imagenes/Ashe.jpg);
     background-size: cover;
     height: 100px;
     width: 207px;

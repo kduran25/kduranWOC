@@ -7,12 +7,14 @@ padding: 0;}
 }
 body{ 
     color: white;
-    background-color: gray;
+    background-color: #530e15;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     height: 100%;
-    background-image:url(/Imagenes/fondo.png);
-    background-size: contain;
+    background-image:url(./Imagenes/fondo.jpg);
+    background-size:1820px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 header { 
     height: 80px;
@@ -35,7 +37,7 @@ img {
 }
 
 a:hover{
-    color: #002973;
+    color: #92e2f7;
 }
 a{
     text-decoration: none;
@@ -76,7 +78,7 @@ div#demo.carousel.slide {
  .carousel-inner {
     height: 550px;
     width: 400px;
-    background-color: #530e15;
+    background-color: #530e15b6;
     text-align: center;
 
     margin-bottom: 10%;
@@ -97,7 +99,7 @@ div#demo.carousel.slide {
     width: 470px;
     font-size: 17px;
     border: 2px solid gray;
-    background-color: #530e15;
+    background-color: #530e15ef;
     justify-content: space-around;
     align-items: left;
     margin-left: 120px;
@@ -115,7 +117,7 @@ div#demo.carousel.slide {
     width: 470px;
     font-size: 17px;
     border: 2px solid gray;
-    background-color: #041c49;
+    background-color: #041c49e8;
     justify-content: space-around;
     align-items: left;
     margin-left: 120px;
@@ -126,12 +128,11 @@ div#demo.carousel.slide {
     display: grid;
     grid-column: 3/4;
     grid-row: 10/13;        
-    padding: 3%;
     height: 800px;
     width: 470px;
     font-size: 17px;
     border: 2px solid gray;
-    background-color: #530e15;
+    background-color: #530e15ee;
     justify-content: space-around;
     align-items: left;
     margin-left: 120px;
@@ -170,20 +171,19 @@ div#demo.carousel.slide {
     width: 120px;
     height: 120px;
     border: 2px solid gray;
-    padding: 1%;
+    padding: 3%;
     flex-wrap: wrap;
     align-items: center;
     text-align: right;
     justify-content: space-around;
+    font-size: 20px;
 }
-#blue {
-    background-color: #041c49;
-}
+
 p {
     font-family: 'Roboto', sans-serif;
 }
 #comic1 {
-    background-image: url(/Imagenes/Captura.PNG);
+    background-image: url(./Imagenes/Captura.PNG);
     image-rendering: auto;
     background-size: cover;
 }
@@ -195,7 +195,7 @@ p {
     transform: scale(1.16,1.16);
 }
 #comic2 {
-    background-image: url(/Imagenes/Locke.jpg);
+    background-image: url(./Imagenes/Locke.jpg);
     image-rendering: auto;
     background-size: cover;
 }
@@ -207,7 +207,7 @@ p {
     transform: scale(1.16,1.16);
 }
 #comic3 {
-    background-image: url(/Imagenes/Spidey.PNG);
+    background-image: url(./Imagenes/Spidey.PNG);
     image-rendering: auto;
     background-size: cover;
 }
@@ -219,7 +219,7 @@ p {
     transform: scale(1.16,1.16);
 }
 #comic4 {
-    background-image: url(/Imagenes/Tboys.PNG);
+    background-image: url(./Imagenes/Tboys.PNG);
     image-rendering: auto;
     background-size: cover;
 }
@@ -230,6 +230,108 @@ p {
     background-color: red;
     transform: scale(1.16,1.16);
 }
+
+#venta1 {
+    background-image: url(./Imagenes/venta1.jpg);
+    image-rendering: auto;
+    background-size: cover;
+}
+
+#venta1 {
+    transition: all 2s;
+}
+#venta1:hover {
+    background-color: red;
+    transform: scale(1.16,1.16);
+}
+
+#venta2 {
+    background-image: url(./Imagenes/Starwars\ DP.jpg);
+    image-rendering: auto;
+    background-size: cover;
+}
+#venta2 {
+    transition: all 2s;
+}
+#venta2:hover {
+    background-color: red;
+    transform: scale(1.16,1.16);
+}
+#venta3 {
+    background-image: url(./Imagenes/DDevil.jpg);
+        image-rendering: auto;
+        background-size: cover;
+    }
+#venta3 {
+    transition: all 2s;
+    }
+#venta3:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+    }
+#venta4 {
+    background-image: url(./Imagenes/Ashe.jpg);
+    image-rendering: auto;
+    background-size: cover;
+    }
+#venta4 {
+        transition: all 2s;
+    }
+#venta4:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+    }
+
+#rec1 {
+        background-image: url(./Imagenes/xuniverse.jpg);
+        image-rendering: auto;
+        background-size: cover;
+    }
+    
+#rec1 {
+        transition: all 2s;
+    }
+#rec1:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+    }
+    
+#rec2 {
+        background-image: url(./Imagenes/zombies.jpg);
+        image-rendering: auto;
+        background-size: cover;
+    }
+#rec2 {
+        transition: all 2s;
+    }
+#rec2:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+    }
+#rec3 {
+        background-image: url(./Imagenes/TWD.jpg);
+            image-rendering: auto;
+            background-size: cover;
+        }
+#rec3 {
+            transition: all 2s;
+        }
+#rec3:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+        }
+#rec4 {
+        background-image: url(./Imagenes/Ashe.jpg);
+        image-rendering: auto;
+        background-size: cover;
+        }
+#rec4 {
+        transition: all 2s;
+        }
+#rec4:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+        }
 
 footer {
     width: 100%;
@@ -249,46 +351,35 @@ img{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(17 / 50%);
     }
-    nav a{
-        color: white;
-        text-transform: capitalize;
-        margin-left: 8px;
-    }
+
 
     nav a:hover{
         color: #002973;
     }
-    nav li {
-        font-size: 10px;
-        display: table-cell;
-        list-style: none;
-        text-align: end;
-    }
-    #inicio {
-        height: 20px;
-        width: 100%;
-        color: white;
-        background-color:#D90115;
-        list-style-type: none;
-        padding: 1% 1% 1% 1%;  
-        text-align: center;
-        justify-content: center;
-        border-style: solid white;
-        margin-left: 1px;
 
+    div#demo.carousel.slide {
+        background-color: #530e15e1;
+        width: 80%;
+        height: 400px;
+        margin-left: 4%;
+        margin-top: 45%;
+        margin-bottom: 3%;
+        border: solid gray;
     }
-    .masvistos{
-        display: grid;
-        grid-column: 1/5;
-        grid-row: 5/7;
-        height: 75px;
-        width: 200px;
-        border-width: 5px;
-        background-color: #D90115;
+    
+     .carousel-inner {
+        width: 80%;
+        height: 400px;
+        background-color: #530e1500;
         text-align: center;
-        margin-top: 40%;
-        margin-left: 70px;
-    }
+        margin-bottom: 10%;
+        margin-left: 10%;
+    } 
+    
+    .carousel-inner img {
+        width: 87%;
+        height: 340px;
+      }
     .flexul{
         display: grid;
         grid-column: 1/4;
@@ -296,7 +387,7 @@ img{
         height: 600px;
         width: 300px;
         border: 2px solid gray;
-        background-color: #D90115;
+        background-color: #530e15ef;
         justify-content: space-around;
         align-items: left;
         margin-left: 10px;
@@ -309,10 +400,10 @@ img{
         grid-column: 1/4;
         grid-row: 10/11;
         padding: 3%;
-        height: 500px;
+        height: 600px;
         width: 300px;
         border: 2px solid gray;
-        background-color: #002973;
+        background-color: #041c49e8;
         justify-content: space-around;
         align-items: left;
         margin-left: 10px;
@@ -324,10 +415,10 @@ img{
         grid-column: 1/4;
         grid-row: 12/13;        
         padding: 3%;
-        height: 500px;
+        height: 600px;
         width: 300px;
         border: 2px solid gray;
-        background-color: #D90115;
+        background-color: #530e15ef;
         justify-content: space-around;
         align-items: left;
         margin-left: 10px;
@@ -379,45 +470,35 @@ img{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(10 / 50%);
     }
-    nav a{
-        color: white;
-        text-transform: capitalize;
-        margin-left: 8px;
-    }
 
     nav a:hover{
         color: #002973;
     }
-    nav li {
-        font-size: 12px;
-        display: table-cell;
-        list-style: none;
-        text-align: end;
+    div#demo.carousel.slide {
+        background-color: #530e15e1;
+        width: 80%;
+        height: 400px;
+        margin-left: 6%;
+        margin-top: 45%;
+        margin-bottom: 3%;
+        border: solid gray;
     }
-    #inicio {
-        height: 20px;
-        width: 100%;
-        color: white;
-        background-color:#D90115;
-        list-style-type: none;
-        padding: 1% 1% 1% 1%;  
+
+    .carousel-inner {
+        width: 80%;
+        height: 400px;
+        background-color: #530e1500;
         text-align: center;
-        justify-content: center;
-        border-style: solid white;
-        margin-left: 1px;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    } 
+
+
+    .carousel-inner img {
+        width: 87%;
+        height: 340px;
     }
-    .masvistos{
-        display: grid;
-        grid-column: 2/5;
-        grid-row: 5/7;
-        height: 75px;
-        width: 200px;
-        border-width: 5px;
-        background-color: #D90115;
-        text-align: center;
-        margin-top: 40%;
-        margin-left: 1px;
-    }
+    
     .flexul{
         display: grid;
         grid-column: 1/4;
@@ -425,7 +506,7 @@ img{
         height: 650px;
         width: 300px;
         border: 2px solid gray;
-        background-color: #D90115;
+        background-color: #530e15ef;
         justify-content: space-around;
         align-items: left;
         margin-left: 40px;
@@ -438,10 +519,10 @@ img{
         grid-column: 1/4;
         grid-row: 10/11;
         padding: 3%;
-        height: 500px;
+        height: 650px;
         width: 300px;
         border: 2px solid gray;
-        background-color: #002973;
+        background-color: #041c49e8;
         justify-content: space-around;
         align-items: left;
         margin-left: 40px;
@@ -453,15 +534,16 @@ img{
         grid-column: 1/4;
         grid-row: 12/13;        
         padding: 3%;
-        height: 500px;
+        height: 650px;
         width: 300px;
         border: 2px solid gray;
-        background-color: #D90115;
+        background-color: #530e15ef;
         justify-content: space-around;
         align-items: left;
         margin-left: 40px;
         flex-flow: column;
         margin-top: 5%;
+        margin-bottom: 18%;
     }
     .flexul li {
         display: flex;
@@ -506,53 +588,54 @@ img{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(17 / 50%);
     }
-    nav a{
+    body{ 
         color: white;
-        text-transform: capitalize;
-        margin-left: 12px;
+        background-color: #530e15;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+        background-image:url(./Imagenes/fondo.jpg);
+        background-size:2500px;
+        background-repeat: no-repeat;
+        background-position: center;
     }
-
     nav a:hover{
         color: #002973;
     }
-    nav li {
-        font-size: 15px;
-        display: table-cell;
-        list-style: none;
-        text-align: end;
+
+    div#demo.carousel.slide {
+        background-color: #530e15e1;
+        width: 80%;
+        height: 700px;
+        margin-left: 6%;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        border: solid gray;
     }
-    #inicio {
-        height: 20px;
-        width: 100%;
-        color: white;
-        background-color:#D90115;
-        list-style-type: none;
-        padding: 1% 1% 1% 1%;  
-        justify-content: center;
-        border-style: solid white;
-        margin-left: 40%;
-    }
-    .masvistos{
-        display: grid;
-        grid-column: 2/5;
-        grid-row: 5/7;
-        height: 75px;
-        width: 200px;
-        border-width: 5px;
-        background-color: #D90115;
+
+    .carousel-inner {
+        width: 80%;
+        height: 600px;
+        background-color: #530e1500;
         text-align: center;
-        margin-top: 30%;
-        margin-left: 70px;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    } 
+
+
+    .carousel-inner img {
+        width: 87%;
+        height: 600px;
     }
     .flexul{
         display: grid;
         grid-column: 1/4;
         grid-row: 8/9;
-        height: 600px;
+        height: 800px;
         width: 470px;
         font-size: 17px;
         border: 2px solid gray;
-        background-color: #D90115;
+        background-color: #530e15ef;
         justify-content: space-around;
         align-items: left;
         margin-left: 120px;
@@ -565,11 +648,11 @@ img{
         grid-column: 1/4;
         grid-row: 10/11;
         padding: 3%;
-        height: 600px;
+        height: 800px;
         width: 470px;
         font-size: 17px;
         border: 2px solid gray;
-        background-color: #002973;
+        background-color: #041c49e8;
         justify-content: space-around;
         align-items: left;
         margin-left: 120px;
@@ -580,17 +663,17 @@ img{
         display: grid;
         grid-column: 1/4;
         grid-row: 12/13;        
-        padding: 3%;
-        height: 600px;
+        height: 800px;
         width: 470px;
         font-size: 17px;
         border: 2px solid gray;
-        background-color: #D90115;
+        background-color: #530e15ef;
         justify-content: space-around;
         align-items: left;
         margin-left: 120px;
         flex-flow: column;
         margin-top: 5%;
+        flex-wrap: wrap;
     }
     .flexul li {
         display: flex;
@@ -625,8 +708,8 @@ img{
         border: 2px solid gray;
         padding: 1%;
         flex-wrap: wrap;
-        align-items: center;
-        text-align: right;
+        align-items: left;
+        text-align: left;
         justify-content: space-around;
     }
     h6{
@@ -639,53 +722,55 @@ img{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: repeat(17 / 50%);
     }
-    nav a{
+    body{ 
         color: white;
-        text-transform: capitalize;
-        margin-left: 12px;
+        background-color: #530e15;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+        background-image:url(./Imagenes/fondo.jpg);
+        background-size:2500px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    div#demo.carousel.slide {
+        background-color: #530e15e1;
+        width: 60%;
+        height: 700px;
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 3%;
+        border: solid gray;
+    }
+
+    .carousel-inner {
+        width: 80%;
+        height: 600px;
+        background-color: #530e1500;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    } 
+
+
+    .carousel-inner img {
+        width: 80%;
+        height: 600px;
     }
 
     nav a:hover{
         color: #002973;
     }
-    nav li {
-        font-size: 15px;
-        display: table-cell;
-        list-style: none;
-        text-align: end;
-    }
-    #inicio {
-        height: 20px;
-        width: 100%;
-        color: white;
-        background-color:#D90115;
-        list-style-type: none;
-        padding: 1% 1% 1% 1%;  
-        justify-content: center;
-        border-style: solid white;
-        margin-left: 40%;
-    }
-    .masvistos{
-        display: grid;
-        grid-column: 3/6;
-        grid-row: 5/7;
-        height: 75px;
-        width: 200px;
-        border-width: 5px;
-        background-color: #D90115;
-        text-align: center;
-        margin-top: 30%;
-        margin-left: 70px;
-    }
+
     .flexul{
         display: grid;
         grid-column: 1/3;
         grid-row: 8/9;
-        height: 600px;
+        height: 800px;
         width: 470px;
         font-size: 17px;
         border: 2px solid gray;
-        background-color: #D90115;
+        background-color: #530e15ef;
         justify-content: space-around;
         align-items: left;
         margin-left: 120px;
@@ -698,11 +783,11 @@ img{
         grid-column: 2/5;
         grid-row: 10/11;
         padding: 3%;
-        height: 600px;
+        height: 800px;
         width: 470px;
         font-size: 17px;
         border: 2px solid gray;
-        background-color: #002973;
+        background-color: #041c49e8;
         justify-content: space-around;
         align-items: left;
         margin-left: 120px;
@@ -714,11 +799,11 @@ img{
         grid-column: 3/6;
         grid-row: 12/13;        
         padding: 3%;
-        height: 600px;
+        height: 800px;
         width: 470px;
         font-size: 17px;
         border: 2px solid gray;
-        background-color: #D90115;
+        background-color: #530e15ef;
         justify-content: space-around;
         align-items: left;
         margin-left: 120px;
@@ -766,6 +851,3 @@ img{
         font-size: 15px;
     }
 }
-
-
-
