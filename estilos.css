@@ -21,7 +21,7 @@ header {
     width: 100%;
     background-color: gray;
     color: white;
-    text-transform: capitalize;
+    text-transform: capitalize;git push
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .logo{
@@ -735,7 +735,7 @@ img{
     }
     div#demo.carousel.slide {
         background-color: #530e15e1;
-        width: 60%;
+        width: 65%;
         height: 700px;
         margin-left: 15%;
         margin-top: 10%;
@@ -744,7 +744,7 @@ img{
     }
 
     .carousel-inner {
-        width: 80%;
+        width: 75%;
         height: 600px;
         background-color: #530e1500;
         text-align: center;
@@ -770,7 +770,7 @@ img{
         width: 470px;
         font-size: 17px;
         border: 2px solid gray;
-        background-color: #530e15ef;
+        background-color: #530e15e1;
         justify-content: space-around;
         align-items: left;
         margin-left: 120px;
@@ -803,7 +803,7 @@ img{
         width: 470px;
         font-size: 17px;
         border: 2px solid gray;
-        background-color: #530e15ef;
+        background-color: #530e15e1;
         justify-content: space-around;
         align-items: left;
         margin-left: 120px;
