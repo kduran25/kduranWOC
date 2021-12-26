@@ -34,10 +34,6 @@ img {
     width: 100px;
 }
 
-nav a:hover{
-    color: #002973;
-}
-
 
 .faq {
     display: grid;
@@ -69,14 +65,6 @@ fieldset {
 }
 
 
-nav{
-    float: right;
-    height: 100px;
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
-
 nav a:hover{
     color: #002973;
 }
@@ -101,46 +89,12 @@ img{
 }
 
 @media only screen and (max-width: 360px) {
-    .gridcontainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: repeat(17 / 50%);
-        height: 100%;
-        width: 100%;
-    }
-    nav a{
-        color: white;
-        text-transform: capitalize;
-        margin-left: 8px;
-    }
 
-    nav a:hover{
-        color: #002973;
-    }
-    nav li {
-        font-size: 10px;
-        display: table-cell;
-        list-style: none;
-        text-align: end;
-    }
-    #inicio {
-        height: 20px;
-        width: 100%;
-        color: white;
-        background-color:#D90115;
-        list-style-type: none;
-        padding: 1% 1% 1% 1%;  
-        text-align: center;
-        justify-content: center;
-        border-style: solid white;
-        margin-left: 1px;
-    }
     .faq {
-        display: grid;
-        grid-column: 1/6;
-        grid-row: 5/12;
+        text-align: left;
         background-color: #D90115;
-        font-size: 17px;
+        font-size: 10px;
+        margin-top: 20%;
     }
 
     .preguntas td{
@@ -148,244 +102,88 @@ img{
         grid-column: 2/5;
         display: flex;
         flex-flow: column wrap;
-        height: 150px;
-        width: 320px;
+        height: 350px;
+        width: 350px;
         background-color: gray;
     }
-
     
     h5 {
-        display: grid;
-        grid-column: 2/4;
+        
         text-decoration: underline;
         text-decoration-color: #D90115;
     }
-    fieldset {
-        height: 60%;
-        width: 80%;
+
+}
+@media only screen and (min-width: 361px) and (max-width: 750px) {
+
+    .faq {
+        text-align: left;
         background-color: #D90115;
-        color: white;
-        border-color: #D90115;
-        margin-top: 50%;
-        margin-left: 5%;
+        font-size: 10px;
+        margin-top: 20%;
+    }
+    
+    .preguntas td{
+        display: grid;
+        grid-column: 2/5;
+        display: flex;
+        flex-flow: column wrap;
+        height: 350px;
+        width: 350px;
+        background-color: gray;
+    }
+        
+    h5 {
+            
+        text-decoration: underline;
+        text-decoration-color: #D90115;
+    }
+}    
+@media only screen and (min-width: 751px) and (max-width: 1023px) {
+    .faq {
+        text-align: left;
+        background-color: #D90115;
+        font-size: 17px;
+        margin-top: 10%;
+    }
+    
+    .preguntas td{
+        display: grid;
+        grid-column: 2/5;
+        display: flex;
+        flex-flow: column wrap;
+        height: 350px;
+        width: 100%;
+        background-color: gray;
+    }
+        
+    h5 {
+            
+        text-decoration: underline;
+        text-decoration-color: #D90115;
+    }
+}    
+@media only screen and (min-width: 1024px) and (max-width: 1366px){
+    .faq {
+        text-align: left;
+        background-color: #D90115;
+        font-size: 17px;
+        margin-top: 10%;
+    }
+    
+    .preguntas td{
+        display: grid;
+        grid-column: 2/5;
+        display: flex;
+        flex-flow: column wrap;
+        height: 350px;
+        width: 100%;
+        background-color: gray;
+    }
+        
+    h5 {
+            
+        text-decoration: underline;
+        text-decoration-color: #D90115;
     }
 }
-    @media only screen and (min-width: 361px) and (max-width: 750px) {
-        .gridcontainer{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-rows: repeat(17 / 50%);
-            height: 100%;
-            width: 100%;
-        }
-        nav a{
-            color: white;
-            text-transform: capitalize;
-            margin-left: 8px;
-        }
-    
-        nav a:hover{
-            color: #002973;
-        }
-        nav li {
-            font-size: 10px;
-            display: table-cell;
-            list-style: none;
-            text-align: end;
-        }
-        #inicio {
-            height: 20px;
-            width: 100%;
-            color: white;
-            background-color:#D90115;
-            list-style-type: none;
-            padding: 1% 1% 1% 1%;  
-            text-align: center;
-            justify-content: center;
-            border-style: solid white;
-            margin-left: 1px;
-        }
-        .faq {
-            display: grid;
-            grid-column: 1/6;
-            grid-row: 5/12;
-            background-color: #D90115;
-            font-size: 17px;
-        }
-    
-        .preguntas td{
-            display: grid;
-            grid-column: 2/5;
-            display: flex;
-            flex-flow: column wrap;
-            height: 150px;
-            width: 320px;
-            background-color: gray;
-        }
-    
-        
-        h5 {
-            display: grid;
-            grid-column: 2/4;
-            text-decoration: underline;
-            text-decoration-color: #D90115;
-        }
-        fieldset {
-            height: 60%;
-            width: 80%;
-            background-color: #D90115;
-            color: white;
-            border-color: #D90115;
-            margin-top: 50%;
-            margin-left: 5%;
-        }
-    }
-    @media only screen and (min-width: 751px) and (max-width: 1023px) {
-        .gridcontainer{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-rows: repeat(17 / 50%);
-            height: 100%;
-            width: 100%;
-        }
-        nav a{
-            color: white;
-            text-transform: capitalize;
-            margin-left: 12px;
-        }
-        nav a:hover{
-            color: #002973;
-        }
-        nav li {
-            font-size: 15px;
-            display: table-cell;
-            list-style: none;
-            text-align: end;
-        }
-        #inicio {
-            height: 20px;
-            width: 100%;
-            color: white;
-            background-color:#D90115;
-            list-style-type: none;
-            padding: 1% 1% 1% 1%;  
-            justify-content: center;
-            border-style: solid white;
-            margin-left: 40%;
-        }
-        .faq {
-            display: grid;
-            grid-column: 2/6;
-            grid-row: 5/12;
-            background-color: #D90115;
-            font-size: 17px;
-        }
-    
-        .preguntas td{
-            display: grid;
-            grid-column: 2/6;
-            display: flex;
-            flex-flow: column wrap;
-            height: 150px;
-            width: 620px;
-            background-color: gray;
-        }
-    
-        
-        h5 {
-            display: grid;
-            grid-column: 2/4;
-            text-decoration: underline;
-            text-decoration-color: #D90115;
-        }
-        fieldset {
-            height: 60%;
-            width: 80%;
-            background-color: #D90115;
-            color: white;
-            border-color: #D90115;
-            margin-top: 30%;
-            margin-left: 5%;
-        }
-    }
-    @media only screen and (min-width: 1024px) and (max-width: 1366px){
-        .gridcontainer{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-rows: repeat(17 / 50%);
-            height: 100%;
-            width: 100%;
-        }
-        nav a{
-            color: white;
-            text-transform: capitalize;
-            margin-left: 12px;
-        }
-    
-        nav a:hover{
-            color: #002973;
-        }
-        nav li {
-            font-size: 15px;
-            display: table-cell;
-            list-style: none;
-            text-align: end;
-        }
-        #inicio {
-            height: 20px;
-            width: 100%;
-            color: white;
-            background-color:#D90115;
-            list-style-type: none;
-            padding: 1% 1% 1% 1%;  
-            justify-content: center;
-            border-style: solid white;
-            margin-left: 40%;
-            font-size: 22px;
-        }
-        .faq {
-            display: grid;
-            grid-column: 2/6;
-            grid-row: 5/12;
-            background-color: #D90115;
-            font-size: 25px;
-        }
-    
-        .preguntas td{
-            display: grid;
-            grid-column: 2/6;
-            display: flex;
-            flex-flow: column wrap;
-            height: 150px;
-            width: 870px;
-            background-color: gray;
-        }
-    
-        
-        h5 {
-            display: grid;
-            grid-column: 2/4;
-            text-decoration: underline;
-            text-decoration-color: #D90115;
-        }
-        fieldset {
-            height: 60%;
-            width: 80%;
-            background-color: #D90115;
-            color: white;
-            border-color: #D90115;
-            margin-top: 30%;
-            margin-left: 5%;
-        }
-        footer {
-            height: 100px;
-            width: 100%;
-            margin-top: 5%;
-            background-color: gray;
-            color: white;
-            text-transform: capitalize;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            text-align: left;
-            font-size: 22px;
-        }
-    }
