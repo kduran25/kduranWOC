@@ -49,21 +49,7 @@ a{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(17 / 50%);
 }
-nav a{
-    color: white;
-    text-transform: capitalize;
-    margin-left: 12px;
-}
 
-nav a:hover{
-    color: #002973;
-}
-nav li {
-    font-size: 15px;
-    display: table-cell;
-    list-style: none;
-    text-align: end;
-}
 
 div#demo.carousel.slide {
     background-color: #530e15e1;
