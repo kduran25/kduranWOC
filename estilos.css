@@ -246,7 +246,7 @@ p {
 }
 
 #venta2 {
-    background-image: url(./Imagenes/Starwars\ DP.jpg);
+    background-image: url(./Imagenes/Starwars\DP.jpg);
     image-rendering: auto;
     background-size: cover;
 }
