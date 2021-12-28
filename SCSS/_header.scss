@@ -1,0 +1,28 @@
+
+header { 
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    height: 85px;
+    width: 100px;
+    float: left;
+    color: white;
+} 
+
+img {
+    height: 80PX;
+    width: 100px;
+}
+
+a:hover{
+    color: #92e2f7;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

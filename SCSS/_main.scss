@@ -1,0 +1,276 @@
+
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(17 / 50%);
+}
+
+
+div#demo.carousel.slide {
+    background-color: #530e15e1;
+    width: 50%;
+    height: 600px;
+    margin-left: 23%;
+    margin-top: 7%;
+    margin-bottom: 3%;
+    border: solid gray;
+}
+
+ .carousel-inner {
+    height: 550px;
+    width: 400px;
+    background-color: #530e15b6;
+    text-align: center;
+
+    margin-bottom: 10%;
+    margin-left: 30%;
+} 
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.flexul{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 8/10;
+    padding: 1px;
+    height: 800px;
+    width: 470px;
+    font-size: 17px;
+    border: 2px solid gray;
+    background-color: #530e15ef;
+    justify-content: space-around;
+    align-items: left;
+    margin-left: 120px;
+    flex-flow: column;
+    margin-top: 1%;
+    flex-wrap: wrap;
+}
+
+.flexum{
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 9/11;
+    padding: 3%;
+    height: 800px;
+    width: 470px;
+    font-size: 17px;
+    border: 2px solid gray;
+    background-color: #041c49e8;
+    justify-content: space-around;
+    align-items: left;
+    margin-left: 120px;
+    flex-flow: column;
+    margin-top: 1%;
+}
+.flexur{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 10/13;        
+    height: 800px;
+    width: 470px;
+    font-size: 17px;
+    border: 2px solid gray;
+    background-color: #530e15ee;
+    justify-content: space-around;
+    align-items: left;
+    margin-left: 120px;
+    flex-flow: column;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.flexul li {
+    display: flex;
+    background-color: gray;
+    width: 120px;
+    height: 120px;
+    border: 2px solid gray;
+    padding: 3%;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.flexum li {
+    display: flex;
+    background-color: gray;
+    width: 120px;
+    height: 120px;
+    border: 2px solid gray;
+    padding: 1%;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+    justify-content: space-around;
+}
+.flexur li {
+    display: flex;
+    background-color: gray;
+    width: 120px;
+    height: 120px;
+    border: 2px solid gray;
+    padding: 3%;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+#comic1 {
+    background-image: url(../Imagenes/Captura.PNG);
+    image-rendering: auto;
+    background-size: cover;
+}
+#comic1 {
+    transition: all 2s;                     
+}
+#comic1:hover {
+    background-color: red;
+    transform: scale(1.16,1.16);
+}
+#comic2 {
+    background-image: url(../Imagenes/Locke.jpg);
+    image-rendering: auto;
+    background-size: cover;
+}
+#comic2 {
+    transition: all 2s;
+}
+#comic2:hover {
+    background-color: red;
+    transform: scale(1.16,1.16);
+}
+#comic3 {
+    background-image: url(../Imagenes/Spidey.PNG);
+    image-rendering: auto;
+    background-size: cover;
+}
+#comic3 {
+    transition: all 2s;
+}
+#comic3:hover {
+    background-color: red;
+    transform: scale(1.16,1.16);
+}
+#comic4 {
+    background-image: url(../Imagenes/Tboys.PNG);
+    image-rendering: auto;
+    background-size: cover;
+}
+#comic4 {
+    transition: all 2s;
+}
+#comic4:hover {
+    background-color: red;
+    transform: scale(1.16,1.16);
+}
+
+#venta1 {
+    background-image: url(../Imagenes/venta1.jpg);
+    image-rendering: auto;
+    background-size: cover;
+}
+
+#venta1 {
+    transition: all 2s;
+}
+#venta1:hover {
+    background-color: red;
+    transform: scale(1.16,1.16);
+}
+
+#venta2 {
+    background-image: url(../Imagenes/StarwarsDP.jpg);
+    image-rendering: auto;
+    background-size: cover;
+}
+#venta2 {
+    transition: all 2s;
+}
+#venta2:hover {
+    background-color: red;
+    transform: scale(1.16,1.16);
+}
+#venta3 {
+    background-image: url(../Imagenes/DDevil.jpg);
+        image-rendering: auto;
+        background-size: cover;
+    }
+#venta3 {
+    transition: all 2s;
+    }
+#venta3:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+    }
+#venta4 {
+    background-image: url(../Imagenes/Ashe.jpg);
+    image-rendering: auto;
+    background-size: cover;
+    }
+#venta4 {
+        transition: all 2s;
+    }
+#venta4:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+    }
+
+#rec1 {
+        background-image: url(../Imagenes/xuniverse.jpg);
+        image-rendering: auto;
+        background-size: cover;
+    }
+    
+#rec1 {
+        transition: all 2s;
+    }
+#rec1:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+    }
+    
+#rec2 {
+        background-image: url(../Imagenes/zombies.jpg);
+        image-rendering: auto;
+        background-size: cover;
+    }
+#rec2 {
+        transition: all 2s;
+    }
+#rec2:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+    }
+#rec3 {
+        background-image: url(../Imagenes/TWD.jpg);
+            image-rendering: auto;
+            background-size: cover;
+        }
+#rec3 {
+            transition: all 2s;
+        }
+#rec3:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+        }
+#rec4 {
+        background-image: url(../Imagenes/superior.jpg);
+        image-rendering: auto;
+        background-size: cover;
+        }
+#rec4 {
+        transition: all 2s;
+        }
+#rec4:hover {
+        background-color: red;
+        transform: scale(1.16,1.16);
+        }
