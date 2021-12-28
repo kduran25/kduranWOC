@@ -7,23 +7,19 @@ header {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.logo {
+header .logo {
   height: 85px;
   width: 100px;
   float: left;
   color: white;
 }
 
-img {
+header img {
   height: 80PX;
   width: 100px;
 }
 
-a:hover {
-  color: #92e2f7;
-}
-
-a {
+header a {
   text-decoration: none;
   color: white;
 }
@@ -47,7 +43,7 @@ div#demo.carousel.slide {
   border: solid gray;
 }
 
-.carousel-inner {
+div#demo.carousel.slide .carousel-inner {
   height: 550px;
   width: 400px;
   background-color: #530e15b6;
@@ -56,7 +52,7 @@ div#demo.carousel.slide {
   margin-left: 30%;
 }
 
-.carousel-inner img {
+div#demo.carousel.slide .carousel-inner img {
   width: 100%;
   height: 100%;
 }
@@ -91,6 +87,94 @@ div#demo.carousel.slide {
       flex-wrap: wrap;
 }
 
+.flexul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: gray;
+  width: 120px;
+  height: 120px;
+  border: 2px solid gray;
+  padding: 3%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 20px;
+}
+
+.flexul #comic1 {
+  background-image: url(../Imagenes/Captura.PNG);
+  image-rendering: auto;
+  background-size: cover;
+}
+
+.flexul #comic1 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.flexul #comic1:hover {
+  background-color: red;
+  -webkit-transform: scale(1.16, 1.16);
+          transform: scale(1.16, 1.16);
+}
+
+.flexul #comic2 {
+  background-image: url(../Imagenes/Locke.jpg);
+  image-rendering: auto;
+  background-size: cover;
+}
+
+.flexul #comic2 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.flexul #comic2:hover {
+  background-color: red;
+  -webkit-transform: scale(1.16, 1.16);
+          transform: scale(1.16, 1.16);
+}
+
+.flexul #comic3 {
+  background-image: url(../Imagenes/Spidey.PNG);
+  image-rendering: auto;
+  background-size: cover;
+}
+
+.flexul #comic3 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.flexul #comic3:hover {
+  background-color: red;
+  -webkit-transform: scale(1.16, 1.16);
+          transform: scale(1.16, 1.16);
+}
+
+.flexul #comic4 {
+  background-image: url(../Imagenes/Tboys.PNG);
+  image-rendering: auto;
+  background-size: cover;
+}
+
+.flexul #comic4 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.flexul #comic4:hover {
+  background-color: red;
+  -webkit-transform: scale(1.16, 1.16);
+          transform: scale(1.16, 1.16);
+}
+
 .flexum {
   display: -ms-grid;
   display: grid;
@@ -117,6 +201,93 @@ div#demo.carousel.slide {
       -ms-flex-flow: column;
           flex-flow: column;
   margin-top: 1%;
+}
+
+.flexum li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: gray;
+  width: 120px;
+  height: 120px;
+  border: 2px solid gray;
+  padding: 1%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flexum #venta1 {
+  background-image: url(../Imagenes/venta1.jpg);
+  image-rendering: auto;
+  background-size: cover;
+}
+
+.flexum #venta1 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.flexum #venta1:hover {
+  background-color: red;
+  -webkit-transform: scale(1.16, 1.16);
+          transform: scale(1.16, 1.16);
+}
+
+.flexum #venta2 {
+  background-image: url(../Imagenes/StarwarsDP.jpg);
+  image-rendering: auto;
+  background-size: cover;
+}
+
+.flexum #venta2 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.flexum #venta2:hover {
+  background-color: red;
+  -webkit-transform: scale(1.16, 1.16);
+          transform: scale(1.16, 1.16);
+}
+
+.flexum #venta3 {
+  background-image: url(../Imagenes/DDevil.jpg);
+  image-rendering: auto;
+  background-size: cover;
+}
+
+.flexum #venta3 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.flexum #venta3:hover {
+  background-color: red;
+  -webkit-transform: scale(1.16, 1.16);
+          transform: scale(1.16, 1.16);
+}
+
+.flexum #venta4 {
+  background-image: url(../Imagenes/Ashe.jpg);
+  image-rendering: auto;
+  background-size: cover;
+}
+
+.flexum #venta4 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.flexum #venta4:hover {
+  background-color: red;
+  -webkit-transform: scale(1.16, 1.16);
+          transform: scale(1.16, 1.16);
 }
 
 .flexur {
@@ -147,45 +318,6 @@ div#demo.carousel.slide {
   margin-bottom: 2%;
 }
 
-.flexul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: gray;
-  width: 120px;
-  height: 120px;
-  border: 2px solid gray;
-  padding: 3%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: right;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  font-size: 20px;
-}
-
-.flexum li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: gray;
-  width: 120px;
-  height: 120px;
-  border: 2px solid gray;
-  padding: 1%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: right;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 .flexur li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,209 +338,69 @@ div#demo.carousel.slide {
   font-size: 20px;
 }
 
-p {
-  font-family: 'Roboto', sans-serif;
-}
-
-#comic1 {
-  background-image: url(../Imagenes/Captura.PNG);
-  image-rendering: auto;
-  background-size: cover;
-}
-
-#comic1 {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#comic1:hover {
-  background-color: red;
-  -webkit-transform: scale(1.16, 1.16);
-          transform: scale(1.16, 1.16);
-}
-
-#comic2 {
-  background-image: url(../Imagenes/Locke.jpg);
-  image-rendering: auto;
-  background-size: cover;
-}
-
-#comic2 {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#comic2:hover {
-  background-color: red;
-  -webkit-transform: scale(1.16, 1.16);
-          transform: scale(1.16, 1.16);
-}
-
-#comic3 {
-  background-image: url(../Imagenes/Spidey.PNG);
-  image-rendering: auto;
-  background-size: cover;
-}
-
-#comic3 {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#comic3:hover {
-  background-color: red;
-  -webkit-transform: scale(1.16, 1.16);
-          transform: scale(1.16, 1.16);
-}
-
-#comic4 {
-  background-image: url(../Imagenes/Tboys.PNG);
-  image-rendering: auto;
-  background-size: cover;
-}
-
-#comic4 {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#comic4:hover {
-  background-color: red;
-  -webkit-transform: scale(1.16, 1.16);
-          transform: scale(1.16, 1.16);
-}
-
-#venta1 {
-  background-image: url(../Imagenes/venta1.jpg);
-  image-rendering: auto;
-  background-size: cover;
-}
-
-#venta1 {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#venta1:hover {
-  background-color: red;
-  -webkit-transform: scale(1.16, 1.16);
-          transform: scale(1.16, 1.16);
-}
-
-#venta2 {
-  background-image: url(../Imagenes/StarwarsDP.jpg);
-  image-rendering: auto;
-  background-size: cover;
-}
-
-#venta2 {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#venta2:hover {
-  background-color: red;
-  -webkit-transform: scale(1.16, 1.16);
-          transform: scale(1.16, 1.16);
-}
-
-#venta3 {
-  background-image: url(../Imagenes/DDevil.jpg);
-  image-rendering: auto;
-  background-size: cover;
-}
-
-#venta3 {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#venta3:hover {
-  background-color: red;
-  -webkit-transform: scale(1.16, 1.16);
-          transform: scale(1.16, 1.16);
-}
-
-#venta4 {
-  background-image: url(../Imagenes/Ashe.jpg);
-  image-rendering: auto;
-  background-size: cover;
-}
-
-#venta4 {
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-#venta4:hover {
-  background-color: red;
-  -webkit-transform: scale(1.16, 1.16);
-          transform: scale(1.16, 1.16);
-}
-
-#rec1 {
+.flexur #rec1 {
   background-image: url(../Imagenes/xuniverse.jpg);
   image-rendering: auto;
   background-size: cover;
 }
 
-#rec1 {
+.flexur #rec1 {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-#rec1:hover {
+.flexur #rec1:hover {
   background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
 
-#rec2 {
+.flexur #rec2 {
   background-image: url(../Imagenes/zombies.jpg);
   image-rendering: auto;
   background-size: cover;
 }
 
-#rec2 {
+.flexur #rec2 {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-#rec2:hover {
+.flexur #rec2:hover {
   background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
 
-#rec3 {
+.flexur #rec3 {
   background-image: url(../Imagenes/TWD.jpg);
   image-rendering: auto;
   background-size: cover;
 }
 
-#rec3 {
+.flexur #rec3 {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-#rec3:hover {
+.flexur #rec3:hover {
   background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
 
-#rec4 {
+.flexur #rec4 {
   background-image: url(../Imagenes/superior.jpg);
   image-rendering: auto;
   background-size: cover;
 }
 
-#rec4 {
+.flexur #rec4 {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-#rec4:hover {
+.flexur #rec4:hover {
   background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);

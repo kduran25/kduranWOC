@@ -20,6 +20,14 @@ body{
     background-position: center;
 }
 
+a:hover{
+    color: #92e2f7;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
 
 @media only screen and (max-width: 360px) {
     .gridcontainer{
@@ -434,9 +442,9 @@ body{
         height: 600px;
     }
 
-    nav a:hover{
-        color: #002973;
-    }
+    // nav a:hover{
+    //     color: #002973;
+    // }
 
     .flexul{
         display: grid;
