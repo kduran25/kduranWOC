@@ -296,7 +296,7 @@ div#demo.carousel.slide {
             height: 600px;
             width: 300px;
             border: 2px solid gray;
-            background-color: #530e15ef;
+            background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
             margin-left: 10px;
@@ -325,7 +325,7 @@ div#demo.carousel.slide {
             height: 600px;
             width: 300px;
             border: 2px solid gray;
-            background-color: #041c49e8;
+            background-color: $colorTerciario;
             justify-content: space-around;
             align-items: left;
             margin-left: 10px;
@@ -352,7 +352,7 @@ div#demo.carousel.slide {
             height: 600px;
             width: 300px;
             border: 2px solid gray;
-            background-color: #530e15ef;
+            background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
             margin-left: 10px;
@@ -385,7 +385,7 @@ div#demo.carousel.slide {
             color: #002973;
         }
         div#demo.carousel.slide {
-            background-color: #530e15e1;
+            background-color: $colorSecundario;
             width: 80%;
             height: 400px;
             margin-left: 6%;
@@ -413,7 +413,7 @@ div#demo.carousel.slide {
             height: 650px;
             width: 300px;
             border: 2px solid gray;
-            background-color: #530e15ef;
+            background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
             margin-left: 40px;
@@ -429,7 +429,7 @@ div#demo.carousel.slide {
             height: 650px;
             width: 300px;
             border: 2px solid gray;
-            background-color: #041c49e8;
+            background-color: $colorTerciario;
             justify-content: space-around;
             align-items: left;
             margin-left: 40px;
@@ -456,7 +456,7 @@ div#demo.carousel.slide {
             height: 650px;
             width: 300px;
             border: 2px solid gray;
-            background-color: #530e15ef;
+            background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
             margin-left: 40px;
@@ -489,7 +489,7 @@ div#demo.carousel.slide {
         }
     
         div#demo.carousel.slide {
-            background-color: #530e15e1;
+            background-color: $colorSecundario;
             width: 80%;
             height: 700px;
             margin-left: 6%;
@@ -518,7 +518,7 @@ div#demo.carousel.slide {
             width: 470px;
             font-size: 17px;
             border: 2px solid gray;
-            background-color: #530e15ef;
+            background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
             margin-left: 120px;
@@ -548,7 +548,7 @@ div#demo.carousel.slide {
             width: 470px;
             font-size: 17px;
             border: 2px solid gray;
-            background-color: #041c49e8;
+            background-color: $colorTerciario;
             justify-content: space-around;
             align-items: left;
             margin-left: 120px;
@@ -575,7 +575,7 @@ div#demo.carousel.slide {
             width: 470px;
             font-size: 17px;
             border: 2px solid gray;
-            background-color: #530e15ef;
+            background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
             margin-left: 120px;
@@ -605,7 +605,7 @@ div#demo.carousel.slide {
 
         body{ 
             color: white;
-            background-color: #530e15;
+            background-color: $colorPrimario;
             text-decoration: none;
             font-family: 'Roboto', sans-serif;
             height: 100%;
@@ -615,7 +615,7 @@ div#demo.carousel.slide {
             background-position: center;
         }
         div#demo.carousel.slide {
-            background-color: #530e15e1;
+            background-color: $colorSecundario;
             width: 65%;
             height: 700px;
             margin-left: 15%;
@@ -648,7 +648,7 @@ div#demo.carousel.slide {
             width: 470px;
             font-size: 17px;
             border: 2px solid gray;
-            background-color: #530e15e1;
+            background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
             margin-left: 120px;
@@ -678,7 +678,7 @@ div#demo.carousel.slide {
             width: 470px;
             font-size: 17px;
             border: 2px solid gray;
-            background-color: #041c49e8;
+            background-color: $colorTerciario;
             justify-content: space-around;
             align-items: left;
             margin-left: 120px;
@@ -706,7 +706,7 @@ div#demo.carousel.slide {
             width: 470px;
             font-size: 17px;
             border: 2px solid gray;
-            background-color: #530e15e1;
+            background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
             margin-left: 120px;

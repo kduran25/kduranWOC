@@ -569,7 +569,7 @@ div#demo.carousel.slide .carousel-inner img {
     color: #002973;
   }
   div#demo.carousel.slide {
-    background-color: #530e15e1;
+    background-color: #530e15ef;
     width: 80%;
     height: 400px;
     margin-left: 6%;
@@ -720,7 +720,7 @@ div#demo.carousel.slide .carousel-inner img {
     color: #002973;
   }
   div#demo.carousel.slide {
-    background-color: #530e15e1;
+    background-color: #530e15ef;
     width: 80%;
     height: 700px;
     margin-left: 6%;
@@ -901,7 +901,7 @@ div#demo.carousel.slide .carousel-inner img {
     background-position: center;
   }
   div#demo.carousel.slide {
-    background-color: #530e15e1;
+    background-color: #530e15ef;
     width: 65%;
     height: 700px;
     margin-left: 15%;
@@ -937,7 +937,7 @@ div#demo.carousel.slide .carousel-inner img {
     width: 470px;
     font-size: 17px;
     border: 2px solid gray;
-    background-color: #530e15e1;
+    background-color: #530e15ef;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-align: left;
@@ -1030,7 +1030,7 @@ div#demo.carousel.slide .carousel-inner img {
     width: 470px;
     font-size: 17px;
     border: 2px solid gray;
-    background-color: #530e15e1;
+    background-color: #530e15ef;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-align: left;
