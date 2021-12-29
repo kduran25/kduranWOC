@@ -1,8 +1,6 @@
 header {
   height: 80px;
   width: 100%;
-  background-color: gray;
-  color: white;
   text-transform: capitalize;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -29,7 +27,7 @@ header img {
 }
 
 div#demo.carousel.slide {
-  background-color: #530e15e1;
+  background-color: #530e15ef;
   width: 50%;
   height: 600px;
   margin-left: 23%;
@@ -41,7 +39,7 @@ div#demo.carousel.slide {
 div#demo.carousel.slide .carousel-inner {
   height: 550px;
   width: 400px;
-  background-color: #530e15b6;
+  background-color: #530e15ef;
   text-align: center;
   margin-bottom: 10%;
   margin-left: 30%;
@@ -114,7 +112,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexul #comic1:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -131,7 +128,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexul #comic2:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -148,7 +144,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexul #comic3:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -165,7 +160,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexul #comic4:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -229,7 +223,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexum #venta1:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -246,7 +239,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexum #venta2:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -263,7 +255,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexum #venta3:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -280,7 +271,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexum #venta4:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -298,7 +288,7 @@ div#demo.carousel.slide .carousel-inner img {
   width: 470px;
   font-size: 17px;
   border: 2px solid gray;
-  background-color: #530e15ee;
+  background-color: #530e15;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: left;
@@ -345,7 +335,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexur #rec1:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -362,7 +351,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexur #rec2:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -379,7 +367,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexur #rec3:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -396,7 +383,6 @@ div#demo.carousel.slide .carousel-inner img {
 }
 
 .flexur #rec4:hover {
-  background-color: red;
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
@@ -414,7 +400,7 @@ div#demo.carousel.slide .carousel-inner img {
     color: #002973;
   }
   div#demo.carousel.slide {
-    background-color: #530e15e1;
+    background-color: #530e15ef;
     width: 80%;
     height: 400px;
     margin-left: 4%;

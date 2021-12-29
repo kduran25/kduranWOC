@@ -1,3 +1,4 @@
+
 .gridcontainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -6,7 +7,7 @@
 
 
 div#demo.carousel.slide {
-    background-color: #530e15e1;
+    background-color: $colorSecundario;
     width: 50%;
     height: 600px;
     margin-left: 23%;
@@ -16,7 +17,7 @@ div#demo.carousel.slide {
     & .carousel-inner {
         height: 550px;
         width: 400px;
-        background-color: #530e15b6;
+        background-color: $colorSecundario;
         text-align: center;
         margin-bottom: 10%;
         margin-left: 30%;
@@ -36,7 +37,7 @@ div#demo.carousel.slide {
     width: 470px;
     font-size: 17px;
     border: 2px solid gray;
-    background-color: #530e15ef;
+    background-color: $colorSecundario;
     justify-content: space-around;
     align-items: left;
     margin-left: 120px;
@@ -65,7 +66,6 @@ div#demo.carousel.slide {
         transition: all 2s;                     
     }    
     & #comic1:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
     }
     & #comic2 {
@@ -77,7 +77,6 @@ div#demo.carousel.slide {
         transition: all 2s;
     } 
     & #comic2:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
     }
     & #comic3 {
@@ -89,7 +88,6 @@ div#demo.carousel.slide {
         transition: all 2s;
     } 
     & #comic3:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
         }
     & #comic4 {
@@ -101,7 +99,6 @@ div#demo.carousel.slide {
             transition: all 2s;
         }
     & #comic4:hover {
-            background-color: red;
             transform: scale(1.16,1.16);
         }
 }
@@ -116,7 +113,7 @@ div#demo.carousel.slide {
     width: 470px;
     font-size: 17px;
     border: 2px solid gray;
-    background-color: #041c49e8;
+    background-color: $colorTerciario;
     justify-content: space-around;
     align-items: left;
     margin-left: 120px;
@@ -144,7 +141,6 @@ div#demo.carousel.slide {
         transition: all 2s;
     }
     & #venta1:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
     }
     
@@ -157,7 +153,6 @@ div#demo.carousel.slide {
         transition: all 2s;
     }
     & #venta2:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
     }
     & #venta3 {
@@ -169,7 +164,6 @@ div#demo.carousel.slide {
         transition: all 2s;
         }
     & #venta3:hover {
-            background-color: red;
             transform: scale(1.16,1.16);
         }
     & #venta4 {
@@ -181,7 +175,6 @@ div#demo.carousel.slide {
             transition: all 2s;
         }
     & #venta4:hover {
-            background-color: red;
             transform: scale(1.16,1.16);
         }
 }
@@ -195,7 +188,7 @@ div#demo.carousel.slide {
     width: 470px;
     font-size: 17px;
     border: 2px solid gray;
-    background-color: #530e15ee;
+    background-color: $colorPrimario;
     justify-content: space-around;
     align-items: left;
     margin-left: 120px;
@@ -225,7 +218,6 @@ div#demo.carousel.slide {
         transition: all 2s;
     }
     & #rec1:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
     }
     
@@ -238,7 +230,6 @@ div#demo.carousel.slide {
         transition: all 2s;
     }
     & #rec2:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
     }
     & #rec3 {
@@ -250,7 +241,6 @@ div#demo.carousel.slide {
             transition: all 2s;
         }
     & #rec3:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
         }
     & #rec4 {
@@ -262,7 +252,6 @@ div#demo.carousel.slide {
         transition: all 2s;
         }
     & #rec4:hover {
-        background-color: red;
         transform: scale(1.16,1.16);
         }
     }
@@ -279,7 +268,7 @@ div#demo.carousel.slide {
         }
     
         div#demo.carousel.slide {
-            background-color: #530e15e1;
+            background-color: $colorSecundario;
             width: 80%;
             height: 400px;
             margin-left: 4%;

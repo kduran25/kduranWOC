@@ -1,7 +1,9 @@
+@import "variables";
 @import "header";
 @import "main";
 @import "footer";
-@import "variables";
+
+
 
 *{margin: 0;
 padding: 0;}
@@ -11,7 +13,7 @@ padding: 0;}
 }
 body{ 
     color: white;
-    background-color: $color1;
+    background-color: $colorPrimario;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     height: 100%;
