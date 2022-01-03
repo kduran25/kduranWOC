@@ -111,6 +111,62 @@ td {
     transform: skew(15deg);
 }
 
+#comic5 {
+    background-image: url(../Imagenes/xuniverse.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 180px;
+}
+.c5 {
+    transition: all 2s;
+}
+
+.c5:hover {
+    transform: skew(15deg);
+}
+
+#comic6 {
+    background-image: url(../Imagenes/zombies.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 180px;
+}
+.c6 {
+    transition: all 2s;
+}
+
+.c6:hover {
+    transform: skew(15deg);
+}
+
+#comic7 {
+    background-image: url(../Imagenes/TWD.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 180px;
+}
+.c7 {
+    transition: all 2s;
+}
+
+.c7:hover {
+    transform: skew(15deg);
+}
+
+#comic8 {
+    background-image: url(../Imagenes/superior.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 180px;
+}
+.c8 {
+    transition: all 2s;
+}
+
+.c8:hover {
+    transform: skew(15deg);
+}
+
 .title {
     color: black;
     text-decoration: underline;
