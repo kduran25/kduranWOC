@@ -27,16 +27,18 @@ div#demo.carousel.slide {
         }
     }    
 }
-
+@mixin sizes ($height, $width, $font) {
+    height: $height;
+    width: $width;
+    font: $font;
+}
 
  .flexul{
+    @include sizes(800px,470px,17px);
     display: grid;
     grid-column: 1/2;
     grid-row: 8/10;
     padding: 1px;
-    height: 800px;
-    width: 470px;
-    font-size: 17px;
     border: 2px solid gray;
     background-color: $colorSecundario;
     justify-content: space-around;
@@ -106,13 +108,11 @@ div#demo.carousel.slide {
 
 
 .flexum{
+    @include sizes(800px,470px,17px);
     display: grid;
     grid-column: 2/3;
     grid-row: 9/11;
     padding: 3%;
-    height: 800px;
-    width: 470px;
-    font-size: 17px;
     border: 2px solid gray;
     background-color: $colorTerciario;
     justify-content: space-around;
@@ -182,6 +182,7 @@ div#demo.carousel.slide {
 
 
 .flexur{
+    @extend .flexul;
     display: grid;
     grid-column: 3/4;
     grid-row: 10/13;        

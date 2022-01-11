@@ -68,7 +68,10 @@ div#demo.carousel.slide .carousel-inner img {
   height: 100%;
 }
 
-.flexul {
+.flexul, .flexur {
+  height: 800px;
+  width: 470px;
+  font: 17px;
   display: -ms-grid;
   display: grid;
   -ms-grid-column: 1;
@@ -78,9 +81,6 @@ div#demo.carousel.slide .carousel-inner img {
   -ms-grid-row-span: 2;
   grid-row: 8/10;
   padding: 1px;
-  height: 800px;
-  width: 470px;
-  font-size: 17px;
   border: 2px solid gray;
   background-color: #530e15ef;
   -ms-flex-pack: distribute;
@@ -98,7 +98,7 @@ div#demo.carousel.slide .carousel-inner img {
       flex-wrap: wrap;
 }
 
-.flexul li {
+.flexul li, .flexur li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,71 +118,74 @@ div#demo.carousel.slide .carousel-inner img {
   font-size: 20px;
 }
 
-.flexul #comic1 {
+.flexul #comic1, .flexur #comic1 {
   background-image: url(../Imagenes/Captura.PNG);
   image-rendering: auto;
   background-size: cover;
 }
 
-.flexul #comic1 {
+.flexul #comic1, .flexur #comic1 {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-.flexul #comic1:hover {
+.flexul #comic1:hover, .flexur #comic1:hover {
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
 
-.flexul #comic2 {
+.flexul #comic2, .flexur #comic2 {
   background-image: url(../Imagenes/Locke.jpg);
   image-rendering: auto;
   background-size: cover;
 }
 
-.flexul #comic2 {
+.flexul #comic2, .flexur #comic2 {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-.flexul #comic2:hover {
+.flexul #comic2:hover, .flexur #comic2:hover {
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
 
-.flexul #comic3 {
+.flexul #comic3, .flexur #comic3 {
   background-image: url(../Imagenes/Spidey.PNG);
   image-rendering: auto;
   background-size: cover;
 }
 
-.flexul #comic3 {
+.flexul #comic3, .flexur #comic3 {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-.flexul #comic3:hover {
+.flexul #comic3:hover, .flexur #comic3:hover {
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
 
-.flexul #comic4 {
+.flexul #comic4, .flexur #comic4 {
   background-image: url(../Imagenes/Tboys.PNG);
   image-rendering: auto;
   background-size: cover;
 }
 
-.flexul #comic4 {
+.flexul #comic4, .flexur #comic4 {
   -webkit-transition: all 2s;
   transition: all 2s;
 }
 
-.flexul #comic4:hover {
+.flexul #comic4:hover, .flexur #comic4:hover {
   -webkit-transform: scale(1.16, 1.16);
           transform: scale(1.16, 1.16);
 }
 
 .flexum {
+  height: 800px;
+  width: 470px;
+  font: 17px;
   display: -ms-grid;
   display: grid;
   -ms-grid-column: 2;
@@ -192,9 +195,6 @@ div#demo.carousel.slide .carousel-inner img {
   -ms-grid-row-span: 2;
   grid-row: 9/11;
   padding: 3%;
-  height: 800px;
-  width: 470px;
-  font-size: 17px;
   border: 2px solid gray;
   background-color: #041c49e8;
   -ms-flex-pack: distribute;
@@ -438,7 +438,7 @@ div#demo.carousel.slide .carousel-inner img {
     width: 87%;
     height: 340px;
   }
-  .flexul {
+  .flexul, .flexur {
     display: -ms-grid;
     display: grid;
     -ms-grid-column: 1;
@@ -465,7 +465,7 @@ div#demo.carousel.slide .carousel-inner img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .flexul li {
+  .flexul li, .flexur li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -607,7 +607,7 @@ div#demo.carousel.slide .carousel-inner img {
     width: 87%;
     height: 340px;
   }
-  .flexul {
+  .flexul, .flexur {
     display: -ms-grid;
     display: grid;
     -ms-grid-column: 1;
@@ -758,7 +758,7 @@ div#demo.carousel.slide .carousel-inner img {
     width: 87%;
     height: 600px;
   }
-  .flexul {
+  .flexul, .flexur {
     display: -ms-grid;
     display: grid;
     -ms-grid-column: 1;
@@ -786,7 +786,7 @@ div#demo.carousel.slide .carousel-inner img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .flexul li {
+  .flexul li, .flexur li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -942,7 +942,7 @@ div#demo.carousel.slide .carousel-inner img {
   nav a:hover {
     color: #002973;
   }
-  .flexul {
+  .flexul, .flexur {
     display: -ms-grid;
     display: grid;
     -ms-grid-column: 1;
@@ -970,7 +970,7 @@ div#demo.carousel.slide .carousel-inner img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .flexul li {
+  .flexul li, .flexur li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
