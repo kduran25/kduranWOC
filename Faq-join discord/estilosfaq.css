@@ -3,22 +3,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 .btn--respuesta1 {
   text-shadow: 0 0 10px red;
-  font-size: 17px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn--respuesta2 {
   text-shadow: 0 0 10px blue;
-  font-size: 17px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn--respuesta3 {
   text-shadow: 0 0 10px orange;
-  font-size: 17px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn--respuesta4 {
   text-shadow: 0 0 10px green;
-  font-size: 17px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
