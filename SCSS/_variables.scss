@@ -1,3 +1,20 @@
+/*variables*/
 $colorPrimario: #530e15;
 $colorSecundario: #530e15ef;
 $colorTerciario: #041c49e8;
+
+/* mapa */ 
+$comic: (
+    sombra1: violet,
+    sombra2: blue,
+    sombra3: orange,
+    sombra4: green,
+);
+
+
+@each $sombra, $color in $comic {
+    .btn--#{$sombra} {
+        text-shadow: 0 0 15px $color;
+    }
+}
+

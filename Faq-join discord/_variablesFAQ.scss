@@ -1,0 +1,18 @@
+/* mapa */ 
+$respuestas: (
+    colors1: red,
+    colors2: blue,
+    colors3: orange,
+    colors4: green,
+);
+.respuesta {
+    color: $color;
+}
+
+@each $colors, $color in $respuestas {
+    .respuesta#{$colors} { 
+        background-color: aqua;  
+        text-shadow: 0 0 10px $color;
+        font-size: 17px;
+    }
+}

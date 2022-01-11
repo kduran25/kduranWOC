@@ -11,8 +11,9 @@ padding: 0;}
 .clearfix {
     clear: both;
 }
+
 body{ 
-    color: white;
+    color:white;
     background-color: $colorPrimario;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -34,7 +35,7 @@ a:hover{
 }
 
 a{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 

@@ -1,3 +1,21 @@
+/*variables*/
+/* mapa */
+.btn--sombra1 {
+  text-shadow: 0 0 15px violet;
+}
+
+.btn--sombra2 {
+  text-shadow: 0 0 15px blue;
+}
+
+.btn--sombra3 {
+  text-shadow: 0 0 15px orange;
+}
+
+.btn--sombra4 {
+  text-shadow: 0 0 15px green;
+}
+
 header {
   height: 80px;
   width: 100%;
@@ -1110,7 +1128,7 @@ a:hover {
 }
 
 a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 /*# sourceMappingURL=estilos.css.map */
