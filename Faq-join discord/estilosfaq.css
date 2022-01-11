@@ -1,25 +1,22 @@
+/*variables*/
 /* mapa */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-.respuestacolors1 {
-  background-color: aqua;
+.btn--respuesta1 {
   text-shadow: 0 0 10px red;
   font-size: 17px;
 }
 
-.respuestacolors2 {
-  background-color: aqua;
+.btn--respuesta2 {
   text-shadow: 0 0 10px blue;
   font-size: 17px;
 }
 
-.respuestacolors3 {
-  background-color: aqua;
+.btn--respuesta3 {
   text-shadow: 0 0 10px orange;
   font-size: 17px;
 }
 
-.respuestacolors4 {
-  background-color: aqua;
+.btn--respuesta4 {
   text-shadow: 0 0 10px green;
   font-size: 17px;
 }
@@ -124,7 +121,7 @@ img {
 @media only screen and (max-width: 360px) {
   .faq {
     text-align: left;
-    background-color: #D90115;
+    background-color: #530e15;
     font-size: 10px;
     margin-top: 20%;
   }
@@ -147,8 +144,8 @@ img {
   }
   h5 {
     text-decoration: underline;
-    -webkit-text-decoration-color: #D90115;
-            text-decoration-color: #D90115;
+    -webkit-text-decoration-color: #530e15;
+            text-decoration-color: #530e15;
   }
 }
 
