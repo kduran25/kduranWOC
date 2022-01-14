@@ -13,7 +13,7 @@ body{
     font-family: 'Roboto', sans-serif;
     height: 100%;
     background-image:url(../Imagenes/fondo.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 header { 
     height: 80px;
@@ -63,6 +63,12 @@ h5 {
 #Name {
     margin-top: 2%;
 }
+.btn-primary{
+    background-color: #530e15;
+    border: #530e15;
+    width: 150px;
+    border-style: groove;
+}
 
 footer {
     width: 100%;
@@ -79,80 +85,26 @@ img{
 @media only screen and (max-width: 360px) {
     fieldset {
         background-color: gray;
-        border-color: #D90115;
         margin-top: 40%;
         height: 1200px;
         text-align: center;
     }
 
 }
-    @media only screen and (min-width: 361px) and (max-width: 750px) {
-        fieldset {
-            background-color: gray;
-            border-color: #D90115;
-            height: 1200px;
-            margin-top: 40%;
-            text-align: center;
-        }
-        nav a{
-            color: white;
-            text-transform: capitalize;
-            margin-left: 12px;
-        }
-    
-        nav a:hover{
-            color: #002973;
-        }
-        nav li {
-            font-size: 12px;
-            display: table-cell;
-            list-style: none;
-            text-align: end;
-        }
-        #inicio {
-            height: 20px;
-            width: 100%;
-            color: white;
-            background-color:#D90115;
-            list-style-type: none;
-            padding: 1% 1% 1% 1%;  
-            justify-content: center;
-            border-style: solid white;
-        }
+@media only screen and (min-width: 361px) and (max-width: 750px) {
+    fieldset {
+        background-color: gray;
+        height: 1200px;
+        margin-top: 40%;
+        text-align: center;
     }
-    @media only screen and (min-width: 751px) and (max-width: 1050px) {
-        fieldset {
-            background-color: gray;
-            border-color: #D90115;
-            height: 1200px;
-            width: 100%;
-            margin-top: 25%;
-            text-align: left;
-
-        }
-        nav a{
-            color: white;
-            text-transform: capitalize;
-        }
-    
-        nav a:hover{
-            color: #002973;
-        }
-        nav li {
-            display: table-cell;
-            list-style: none;
-            text-align: end;
-        }
-        #inicio {
-            height: 20px;
-            width: 100%;
-            color: white;
-            background-color:#D90115;
-            list-style-type: none;
-            justify-content: center;
-            border-style: solid white;
-        }
-        h5{
-            text-align: center;
-        }
+}
+@media only screen and (min-width: 751px) and (max-width: 1050px) {
+    fieldset {
+        background-color: gray;
+        height: 1200px;
+        width: 100%;
+        margin-top: 25%;
+        text-align: left;
     }
+}

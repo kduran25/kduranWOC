@@ -264,7 +264,6 @@ div#demo.carousel.slide {
             grid-template-rows: repeat(Edge 17/50);
         }
     
-    
         nav a:hover{
             color: #002973;
         }
@@ -273,7 +272,7 @@ div#demo.carousel.slide {
             background-color: $colorSecundario;
             width: 80%;
             height: 400px;
-            margin-left: 4%;
+            margin-left: 10%;
             margin-top: 58%;
             margin-bottom: 3%;
             border: solid gray;
@@ -301,7 +300,7 @@ div#demo.carousel.slide {
             background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
-            margin-left: 10px;
+            margin-left: 10%;
             flex-flow: column;
             margin-top: 5%;
             flex-wrap: wrap;
@@ -330,7 +329,7 @@ div#demo.carousel.slide {
             background-color: $colorTerciario;
             justify-content: space-around;
             align-items: left;
-            margin-left: 10px;
+            margin-left: 10%;
             flex-flow: column;
             margin-top: 5%;
             & li {
@@ -357,7 +356,7 @@ div#demo.carousel.slide {
             background-color: $colorSecundario;
             justify-content: space-around;
             align-items: left;
-            margin-left: 10px;
+            margin-left: 10%;
             flex-flow: column;
             margin-top: 5%;
             & li {

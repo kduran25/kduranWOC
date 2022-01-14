@@ -421,7 +421,7 @@ div#demo.carousel.slide .carousel-inner img {
     background-color: #530e15ef;
     width: 80%;
     height: 400px;
-    margin-left: 4%;
+    margin-left: 10%;
     margin-top: 58%;
     margin-bottom: 3%;
     border: solid gray;
@@ -456,7 +456,7 @@ div#demo.carousel.slide .carousel-inner img {
     -webkit-box-align: left;
         -ms-flex-align: left;
             align-items: left;
-    margin-left: 10px;
+    margin-left: 10%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
@@ -503,7 +503,7 @@ div#demo.carousel.slide .carousel-inner img {
     -webkit-box-align: left;
         -ms-flex-align: left;
             align-items: left;
-    margin-left: 10px;
+    margin-left: 10%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
@@ -547,7 +547,7 @@ div#demo.carousel.slide .carousel-inner img {
     -webkit-box-align: left;
         -ms-flex-align: left;
             align-items: left;
-    margin-left: 10px;
+    margin-left: 10%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
@@ -1130,5 +1130,19 @@ a:hover {
 a {
   color: white;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    color: white;
+    background-color: #530e15;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background-image: url(../Imagenes/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
