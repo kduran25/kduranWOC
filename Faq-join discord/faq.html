@@ -7,10 +7,23 @@
     <title>Respondemos a tus dudas</title>
         <!--Descripcion-->
     <meta name="description" content="Encuentra aqui respuesta a las preguntas mas frecuentes sobre nuestro sitio.">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".btn-primary").click(function(){
+            $(".collapse").collapse('toggle');
+          });
+          $(".btn-success").click(function(){
+            $(".collapse").collapse('show');
+          });
+          $(".btn-warning").click(function(){
+            $(".collapse").collapse('hide');
+          });
+        });
+    </script>
     <link rel="stylesheet" href="estilosfaq.css">
 </head>
 <body>
@@ -18,8 +31,6 @@
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>   
-        <header>
-    
         <!--inicio de lista con secciones-->
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <!-- Brand/logo -->
@@ -49,54 +60,67 @@
                 </ul>
         </nav>
           
-            </header><br>
+    </header><br>
     <div class="clearfix"></div>
     <div class="gridcontainer">
-    <fieldset >
         <div class="faq">
-            <h4>PREGUNTAS FRECUENTES</h4>
-            <table class="tabla">
-                <tr class=preguntas>
-                    <td class="btn--respuesta1">
-                        <div class="container">
-                            <h4>¿QUIENES SOMOS?</h4>
-                                Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
-                            </div>
-                            </div></a>
-                    </td>
-                </tr>
-                <tr class=preguntas>
-                    <td class="btn--respuesta2">                        
-                        <div class="container">
-                        <h4>¿COMO REALIZAR UN CAMBIO?</h4>
-                            Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
-                        </div>
-                        </div></a></td>
-                </tr>
-                <tr class=preguntas>
-                    <td class="btn--respuesta3">                        
-                        <div  class="container">
-                        <h4>¿COMO PUEDO COMUNICARME CON USTEDES?</h4>
-                            Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
-                        </div>
-                        </div></a></td>
-                </tr>
-                <tr class=preguntas>
-                    <td class="btn--respuesta4">                        
-                        <div class="container">
-                        <h4>¿POR QUE ME REDIRIGE A OTRA PAGINA CUANDO INTENTO COMPRAR?</h4>
-                            Es una trilogía de libros que se basa en el universo de Avatar, continuando los eventos de la franquicia después de La Brecha. En la Nación del Fuego, Iroh sigue esperando la llegada del Señor del Fuego Zuko, que está trayendo de vuelta a Ursa y a su familia a la capital después de que ella fuera desterrada. Sin embargo, la ciudad capital sufre una rebelión causada por la Sociedad Nueva Ozai, quienes quieren sacar a Zuko del trono para poner a su padre de nuevo, Ozai, y hacen que Zuko tenga que proteger a su familia contra el legado de Ozai. Además de los problemas políticos, el Señor del Fuego también debe enfrentarse a su ex-novia, Mai.
-                        </div>
-                        </div></a>
-                    </td>
-                </tr>
-            </table>
+            <h3>PREGUNTAS FRECUENTES</h3>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                            ¿QUIENES SOMOS?
+                        </a>
+                  </div>
+                  <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        Un proyecto emergente que cuyo unico deseo es que esta pagina pueda permitirle tener facil acceso a todo el que desee leer un buen comic de forma gratuita y en algunos casos hasta adquirirlo en formato fisico.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            ¿COMO REALIZAR UN CAMBIO?
+                        </a>
+                  </div>
+                  <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Al ser esta una pagina web de comics gratuitos no realizamos cambios, si deseas algun cambio por un comic comprado a traves de uno de nuestros enlaces debes comunicarte directamente con las personas encargadas de gestionar la pagina desde donde realizaste la compra.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                        ¿COMO PUEDO COMUNICARME CON USTEDES?
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Puedes hacernos llegar un mensaje a traves de nuestro formulario de contacto o tambien contactarnos a traves de nuestras redes sociales, cualquier comentario, reclamo y/o sugerencia sera siempre bien recibida.
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                        ¿POR QUE ME REDIRIGE A OTRA PAGINA CUANDO INTENTO COMPRAR?
+                    </a>
+                    </div>
+                <div id="collapseFour" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        La intencion de nuestra pagina web es que puedas tener acceso gratuito a nuestra biblioteca de comics, te proporcionamos la opcion de ser redirigido a portales que cuentasn con comics a la venta en caso de que desees adquirir alguno de ellos en formato fisico.
+                    </div>
+                </div>
+            </div>
         </div>
-    </fieldset>
     </div>
+</body>
     <footer>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <h4>Redes sociales</h4>
+            <h3>Redes sociales</h3>
                 <ul class="navbar-nav" id="redes" type="none">
                     <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/instagram.png"> </a> </li>
                     <li class="nav-item"><a class="nav-link" href="#"><img src="../Imagenes/facebook.png"></a></li>
@@ -104,4 +128,4 @@
                 </ul>
         </nav>
     </footer>
-    </html>
+</html>

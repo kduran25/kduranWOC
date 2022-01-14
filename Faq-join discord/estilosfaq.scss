@@ -7,7 +7,7 @@ padding: 0;}
     clear: both;
 }
 body{ 
-    color: white;
+    color: black;
     background-color: gray;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -32,6 +32,9 @@ img {
     width: 100px;
 }
 
+a {
+    color: white;
+}
 
 .faq {
     display: grid;
@@ -39,45 +42,29 @@ img {
     grid-row: 5/12;
     background-color: #530e15;
     font-size: 25px;
+    margin-top: 10%;
+    color: white;
 }
-
-.preguntas td{
-    display: grid;
-    grid-column: 2/6;
-    display: flex;
-    flex-flow: column wrap;
-    height: 400px;
-    width: 100%;
-    background-color: gray;
-    margin-top: 50px;
-}
-
-
-fieldset {
-    height: 60%;
-    width: 100%;
+.card {
+    background-color: rgb(143, 140, 140);
+    color: #850512;
     border-color: #530e15;
-    margin-top: 15%;
-    margin-bottom: 10%;
 }
-
+a:hover {
+    color: #850512;
+}
 
 nav a:hover{
-    color: #002973;
+    color: #850512;
 }
-
-
-H4{
-    text-align-last: center;
-}
-
-
 
 footer {
     width: 100%;
     text-transform: capitalize;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
+    margin-top: 15%;
+    color: white;
 }
 img{
     height: 25px;
@@ -85,101 +72,142 @@ img{
 }
 
 @media only screen and (max-width: 360px) {
+    body {
+        background-size: 380px;
+        background-position: top;
+    }
 
     .faq {
-        text-align: left;
         background-color: $colorPrimario;
-        font-size: 10px;
-        margin-top: 20%;
+        font-size: 15px;
+        margin-top: 30%;
+        color: white;
     }
-
-    .preguntas td{
-        display: grid;
-        grid-column: 2/5;
-        display: flex;
-        flex-flow: column wrap;
-        height: 350px;
-        width: 350px;
-        background-color: gray;
+    .card {
+        background-color: rgb(143, 140, 140);
+        color: #850512;
+        border-color: #530e15;
+    }
+    a:hover {
+        color: #850512;
     }
     
-    h5 {
-        
-        text-decoration: underline;
-        text-decoration-color: $colorPrimario;
+    nav a:hover{
+        color: #850512;
+    }
+
+    footer {
+        width: 100%;
+        text-transform: capitalize;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        margin-top: 30%;
+        color: white;
     }
 
 }
 @media only screen and (min-width: 361px) and (max-width: 750px) {
 
+    body {
+        background-size: cover;
+        background-position: top;
+    }
+
     .faq {
-        text-align: left;
-        background-color: #D90115;
-        font-size: 10px;
-        margin-top: 20%;
+        background-color: $colorPrimario;
+        font-size: 15px;
+        margin-top: 28%;
+        color: white;
+    }
+    .card {
+        background-color: rgb(143, 140, 140);
+        color: #850512;
+        border-color: #530e15;
+    }
+    a:hover {
+        color: #850512;
     }
     
-    .preguntas td{
-        display: grid;
-        grid-column: 2/5;
-        display: flex;
-        flex-flow: column wrap;
-        height: 350px;
-        width: 350px;
-        background-color: gray;
+    nav a:hover{
+        color: #850512;
     }
-        
-    h5 {
-            
-        text-decoration: underline;
-        text-decoration-color: #D90115;
+
+    footer {
+        width: 100%;
+        text-transform: capitalize;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        margin-top: 30%;
+        color: white;
     }
+
 }    
 @media only screen and (min-width: 751px) and (max-width: 1023px) {
+    body {
+        background-size: cover;
+        background-position: top;
+    }
+
     .faq {
-        text-align: left;
-        background-color: #D90115;
-        font-size: 17px;
-        margin-top: 10%;
+        background-color: $colorPrimario;
+        font-size: 28px;
+        margin-top: 28%;
+        color: white;
+    }
+    .card {
+        background-color: rgb(143, 140, 140);
+        color: #850512;
+        border-color: #530e15;
+    }
+    a:hover {
+        color: #850512;
     }
     
-    .preguntas td{
-        display: grid;
-        grid-column: 2/5;
-        display: flex;
-        flex-flow: column wrap;
-        height: 350px;
+    nav a:hover{
+        color: #850512;
+    }
+
+    footer {
         width: 100%;
-        background-color: gray;
+        text-transform: capitalize;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        margin-top: 30%;
+        color: white;
     }
-        
-    h5 {
-            
-        text-decoration: underline;
-        text-decoration-color: #D90115;
-    }
+
 }    
 @media only screen and (min-width: 1024px) and (max-width: 1366px){
+    body {
+        background-size: cover;
+        background-position: top;
+    }
+
     .faq {
-        text-align: left;
-        background-color: #D90115;
-        font-size: 17px;
-        margin-top: 10%;
+        background-color: $colorPrimario;
+        font-size: 28px;
+        margin-top: 28%;
+        color: white;
+    }
+    .card {
+        background-color: rgb(143, 140, 140);
+        color: #850512;
+        border-color: #530e15;
+    }
+    a:hover {
+        color: #850512;
     }
     
-    .preguntas td{
-        display: grid;
-        grid-column: 2/5;
-        display: flex;
-        flex-flow: column wrap;
-        height: 350px;
-        width: 100%;
-        background-color: gray;
+    nav a:hover{
+        color: #850512;
     }
-        
-    h5 {
-            
-        text-decoration: underline;
-        text-decoration-color: #D90115;
+
+    footer {
+        width: 100%;
+        text-transform: capitalize;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-decoration: none;
+        margin-top: 45%;
+        color: white;
     }
 }

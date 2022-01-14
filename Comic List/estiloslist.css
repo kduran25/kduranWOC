@@ -38,6 +38,12 @@ a {
     color: white;
 }
 
+.page-link {
+    background-color: #343a40;
+    color: white;
+    border: gray;
+}
+
 
 
 .tablas{

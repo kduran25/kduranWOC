@@ -2,20 +2,3 @@
 $colorPrimario: #530e15;
 $colorSecundario: #530e15ef;
 $colorTerciario: #041c49e8;
-
-/* mapa */ 
-$respuestas: (
-    respuesta1: red,
-    respuesta2: blue,
-    respuesta3: orange,
-    respuesta4: green,
-);
-
-@each $respuesta, $color in $respuestas {
-    .btn--#{$respuesta} { 
-        text-shadow: 0 0 10px $color;
-        font-size: 22px;
-        font-family: Arial, Helvetica, sans-serif;
-        
-    }
-}
