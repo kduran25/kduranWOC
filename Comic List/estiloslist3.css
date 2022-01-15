@@ -141,6 +141,174 @@ a {
     transform: skew(15deg);
 }
 
+#comic5 {
+    background-image: url(../Imagenes/xuniverse.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 180px;
+}
+.comic5-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.container {
+    margin-left: 50px;
+    margin-top: 35px;
+    border-left: 3px solid gray;
+}
+.c5 {
+    transition: all 2s;
+}
+
+.c5:hover {
+    transform: skew(15deg);
+}
+
+#comic6 {
+    background-image: url(../Imagenes/zombies.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 180px;
+}
+.comic6-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.c6 {
+    transition: all 2s;
+}
+
+.c6:hover {
+    transform: skew(15deg);
+}
+
+#comic7 {
+    background-image: url(../Imagenes/TWD.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 180px;
+}
+.comic7-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.c7 {
+    transition: all 2s;
+}
+
+.c7:hover {
+    transform: skew(15deg);
+}
+
+#comic8 {
+    background-image: url(../Imagenes/superior.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 180px;
+}
+.comic8-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.c8 {
+    transition: all 2s;
+}
+
+.c8:hover {
+    transform: skew(15deg);
+}
+
+#comic9 {
+    background-image: url(../Imagenes/DeadpoolvsOldManLoganVol1.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 180px;
+
+}
+.comic9-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.container {
+    margin-left: 50px;
+    margin-top: 35px;
+    border-left: 3px solid gray;
+}
+.c9 {
+    transition: all 2s;
+}
+.c9:hover {
+    transform: skew(15deg);
+}
+#comic10 {
+    background-image: url(../Imagenes/DeadpoolvsOldManLoganVol2.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 180px;
+}
+.comic10-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.c10 {
+    transition: all 2s;
+}
+
+.c10:hover {
+    transform: skew(15deg);
+}
+#comic11 {
+    background-image: url(../Imagenes/DeadpoolvsOldManLoganVol3.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 180px;
+}
+.comic11-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.c11 {
+    transition: all 2s;
+}
+
+.c11:hover {
+    transform: skew(15deg);
+}
+
+#comic12 {
+    background-image: url(../Imagenes/DeadpoolvsOldManLoganVol4.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 180px;
+}
+.comic12-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.c12 {
+    transition: all 2s;
+}
+
+.c12:hover {
+    transform: skew(15deg);
+}
+
 
 .title {
     color: black;
@@ -160,12 +328,65 @@ img{
 }
 
 
+@media only screen and (max-width: 320px) {
+    .tablas{
+        margin-top: 75%;
+        height: 1720px;
+        width: 90%;
+        
+    }
+    .c1{
+        margin-left: 50px;
+    }
+    .c2{
+        margin-left: 50px;
+    }
+    .c3{
+        margin-left: 50px;
+    }
+    .c4{
+        margin-left: 50px;
+    }
+    .c5{
+        margin-left: 50px;
+    }
+    .c6{
+        margin-left: 50px;
+    }
+    .c7{
+        margin-left: 50px;
+    }
+    .c8{
+        margin-left: 50px;
+    }
+    .c9{
+        margin-left: 50px;
+    }
+    .c10{
+        margin-left: 50px;
+    }
+    .c11{
+        margin-left: 50px;
+    }
+    .c12{
+        margin-left: 50px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 12px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
+    }
+}
 
 @media only screen and (max-width: 360px) {
 
     .tablas{
         margin-top: 75%;
-        height: 1645px;
+        height: 1750px;
         width: 90%;   
     }
     .c1{
@@ -180,7 +401,30 @@ img{
     .c4{
         margin-left: 50px;
     }
-
+    .c5{
+        margin-left: 70px;
+    }
+    .c6{
+        margin-left: 70px;
+    }
+    .c7{
+        margin-left: 70px;
+    }
+    .c8{
+        margin-left: 70px;
+    }
+    .c9{
+        margin-left: 70px;
+    }
+    .c10{
+        margin-left: 70px;
+    }
+    .c11{
+        margin-left: 70px;
+    }
+    .c12{
+        margin-left: 70px;
+    }
     .container {
         margin-top: 35px;
         font-size: 12px;
@@ -196,7 +440,7 @@ img{
     
     .tablas{
         margin-top: 75%;
-        height: 1620px;
+        height: 1613px;
         width: 90%;
     }
     .c1{
@@ -209,6 +453,18 @@ img{
         margin-left: 70px;
     }
     .c4{
+        margin-left: 70px;
+    }
+    .c5{
+        margin-left: 70px;
+    }
+    .c6{
+        margin-left: 70px;
+    }
+    .c7{
+        margin-left: 70px;
+    }
+    .c8{
         margin-left: 70px;
     }
     .container {
@@ -225,7 +481,7 @@ img{
     
     .tablas{
         margin-top: 75%;
-        height: 1590px;
+        height: 1580px;
         width: 90%;
     }
     .c1{
@@ -239,6 +495,18 @@ img{
     }
     .c4{
         margin-left: 50px;
+    }
+    .c5{
+        margin-left: 70px;
+    }
+    .c6{
+        margin-left: 70px;
+    }
+    .c7{
+        margin-left: 70px;
+    }
+    .c8{
+        margin-left: 70px;
     }
     .container {
         margin-top: 35px;
@@ -288,6 +556,39 @@ img{
     .c4{
         margin-left: 250px;
     }
+    .c5{
+        margin-left: 250px;
+    }
+    #comic5 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c6{
+        margin-left: 250px;
+    }
+    #comic6 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    
+    .c7{
+        margin-left: 250px;
+    }
+    #comic7 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c8{
+        margin-left: 250px;
+    }
+    #comic8 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
     .container {
         margin-top: 35px;
         font-size: 16px;
@@ -301,7 +602,7 @@ img{
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
     .tablas{
         margin-top: 20%;
-        height: 2940px;
+        height: 2985px;
         width: 95%;
     }
     #comic1 {
@@ -335,6 +636,39 @@ img{
     }
     .c4{
         margin-left: 350px;
+    }
+    .c5{
+        margin-left: 350px;
+    }
+    #comic5 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c6{
+        margin-left: 350px;
+    }
+    #comic6 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+        
+    .c7{
+        margin-left: 350px;
+    }
+    #comic7 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c8{
+        margin-left: 350px;
+    }
+    #comic8 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
     }
     .container {
         margin-top: 35px;

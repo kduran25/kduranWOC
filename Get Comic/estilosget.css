@@ -49,25 +49,29 @@ img {
     margin-top: 10%;
     margin-left: 3%;
     margin-bottom: 5%;
-    height: 1000px;
+    height: 822px;
     width: 90%;
     border-color: gray;
     background-color: #041c49;
 }
 
-tr {
-    height: 8%;
-    width: 10%;
-}
-td {
-    border: solid gray;
-}
 
 #comic1 {
     background-image: url(../Imagenes/venta1.jpg);
     background-size: cover;
-    height: 100px;
-    width: 207px;
+    height: 200px;
+    width: 180px;
+}
+.c1box {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.container {
+    margin-left: 50px;
+    margin-top: 35px;
+    border-left: 3px solid gray;
 }
 
 .c1 {
@@ -75,30 +79,40 @@ td {
 }
 
 .c1:hover {
-    background-color: red;
     transform: skew(15deg);
 }
 
 #comic2 {
     background-image:url(../Imagenes/StarwarsDP.jpg);
     background-size: cover;
-    height: 100px;
-    width: 207px;
+    height: 200px;
+    width: 180px;
+}
+.c2box {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 .c2 {
     transition: all 2s;
 }
 
 .c2:hover {
-    background-color: red;
     transform: skew(15deg);
 }
 
 #comic3 {
 background-image: url(../Imagenes/DDevil.jpg);
     background-size: cover;
-    height: 100px;
-    width: 207px;
+    height: 200px;
+    width: 180px;
+}
+.c3box {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 
 .c3 {
@@ -106,14 +120,19 @@ background-image: url(../Imagenes/DDevil.jpg);
 }
 
 .c3:hover {
-    background-color: red;
     transform: skew(15deg);
 }
 #comic4 {
     background-image: url(../Imagenes/Ashe.jpg);
     background-size: cover;
-    height: 100px;
-    width: 207px;
+    height: 200px;
+    width: 180px;
+}
+.c4box {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 
 .c4 {
@@ -121,7 +140,6 @@ background-image: url(../Imagenes/DDevil.jpg);
 }
 
 .c4:hover {
-    background-color: red;
     transform: skew(15deg);
 }
 
