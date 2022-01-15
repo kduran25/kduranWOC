@@ -44,31 +44,37 @@ a {
     border: gray;
 }
 
-
+#container {
+    margin-left: 15%;
+}
 
 .tablas{
     margin-top: 10%;
     margin-left: 3%;
     margin-bottom: 5%;
-    height: 1000px;
+    height: 822px;
     width: 90%;
     border-color: gray;
     background-color: #530e15;
 }
 
-tr {
-    height: 8%;
-    width: 10%;
-}
-td {
-    border: solid gray;
-}
 #comic1 {
     background-image: url(../Imagenes/Captura.PNG);
     background-size: cover;
-    height: 100px;
-    width: 190px;
+    height: 200px;
+    width: 180px;
 
+}
+.comic1-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.container {
+    margin-left: 50px;
+    margin-top: 35px;
+    border-left: 3px solid gray;
 }
 .c1 {
     transition: all 2s;
@@ -79,8 +85,14 @@ td {
 #comic2 {
     background-image: url(../Imagenes/Locke.jpg);
     background-size: cover;
-    height: 100px;
+    height: 200px;
     width: 180px;
+}
+.comic2-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 .c2 {
     transition: all 2s;
@@ -92,8 +104,14 @@ td {
 #comic3 {
     background-image: url(../Imagenes/Spidey.PNG);
     background-size: cover;
-    height: 100px;
+    height: 200px;
     width: 180px;
+}
+.comic3-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 .c3 {
     transition: all 2s;
@@ -106,8 +124,14 @@ td {
 #comic4 {
     background-image: url(../Imagenes/Tboys.PNG);
     background-size: cover;
-    height: 100px;
+    height: 200px;
     width: 180px;
+}
+.comic4-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 .c4 {
     transition: all 2s;
@@ -120,8 +144,19 @@ td {
 #comic5 {
     background-image: url(../Imagenes/xuniverse.jpg);
     background-size: cover;
-    height: 100px;
+    height: 200px;
     width: 180px;
+}
+.comic5-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
+}
+.container {
+    margin-left: 50px;
+    margin-top: 35px;
+    border-left: 3px solid gray;
 }
 .c5 {
     transition: all 2s;
@@ -134,8 +169,14 @@ td {
 #comic6 {
     background-image: url(../Imagenes/zombies.jpg);
     background-size: cover;
-    height: 100px;
+    height: 200px;
     width: 180px;
+}
+.comic6-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 .c6 {
     transition: all 2s;
@@ -148,8 +189,14 @@ td {
 #comic7 {
     background-image: url(../Imagenes/TWD.jpg);
     background-size: cover;
-    height: 100px;
+    height: 200px;
     width: 180px;
+}
+.comic7-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 .c7 {
     transition: all 2s;
@@ -162,8 +209,14 @@ td {
 #comic8 {
     background-image: url(../Imagenes/superior.jpg);
     background-size: cover;
-    height: 100px;
+    height: 200px;
     width: 180px;
+}
+.comic8-1 {
+    display: flex;
+    flex-flow: row wrap;
+    border:  3px solid gray;
+    text-align: justify;
 }
 .c8 {
     transition: all 2s;
@@ -190,34 +243,332 @@ img{
     width: 25px;
 }
 
+
+@media only screen and (max-width: 320px) {
+    .tablas{
+        margin-top: 75%;
+        height: 1720px;
+        width: 90%;
+        
+    }
+    .c1{
+        margin-left: 50px;
+    }
+    .c2{
+        margin-left: 50px;
+    }
+    .c3{
+        margin-left: 50px;
+    }
+    .c4{
+        margin-left: 50px;
+    }
+    .c5{
+        margin-left: 50px;
+    }
+    .c6{
+        margin-left: 50px;
+    }
+    .c7{
+        margin-left: 50px;
+    }
+    .c8{
+        margin-left: 50px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 12px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
+    }
+}
+
 @media only screen and (max-width: 360px) {
-    .gridcontainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: repeat(17 / 50%);
-    }
+
     .tablas{
         margin-top: 75%;
+        height: 1750px;
+        width: 90%;   
+    }
+    .c1{
+        margin-left: 50px;
+    }
+    .c2{
+        margin-left: 50px;
+    }
+    .c3{
+        margin-left: 50px;
+    }
+    .c4{
+        margin-left: 50px;
+    }
+    .c5{
+        margin-left: 70px;
+    }
+    .c6{
+        margin-left: 70px;
+    }
+    .c7{
+        margin-left: 70px;
+    }
+    .c8{
+        margin-left: 70px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 12px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
     }
 }
-@media only screen and (min-width: 361px) and (max-width: 750px) {
+
+@media only screen and (min-width: 361px) and (max-width: 376px) {
     
-    .gridcontainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: repeat(10 / 50%);
-    }
     .tablas{
         margin-top: 75%;
+        height: 1613px;
+        width: 90%;
+    }
+    .c1{
+        margin-left: 50px;
+    }
+    .c2{
+        margin-left: 50px;
+    }
+    .c3{
+        margin-left: 50px;
+    }
+    .c4{
+        margin-left: 50px;
+    }
+    .c5{
+        margin-left: 70px;
+    }
+    .c6{
+        margin-left: 70px;
+    }
+    .c7{
+        margin-left: 70px;
+    }
+    .c8{
+        margin-left: 70px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 12px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
     }
 }
-@media only screen and (min-width: 751px) and (max-width: 1050px) {
-    .gridcontainer{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: repeat(10 / 50%);
+@media only screen and (min-width: 376px) and (max-width: 750px) {
+    
+    .tablas{
+        margin-top: 75%;
+        height: 1580px;
+        width: 90%;
     }
+    .c1{
+        margin-left: 50px;
+    }
+    .c2{
+        margin-left: 50px;
+    }
+    .c3{
+        margin-left: 50px;
+    }
+    .c4{
+        margin-left: 50px;
+    }
+    .c5{
+        margin-left: 70px;
+    }
+    .c6{
+        margin-left: 70px;
+    }
+    .c7{
+        margin-left: 70px;
+    }
+    .c8{
+        margin-left: 70px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 12px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
+    }
+}
+@media only screen and (min-width: 751px) and (max-width: 1023px) {
+    .tablas{
+        margin-top: 75%;
+        height: 1900px;
+        width: 90%;
+    }
+    #comic1 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c1{
+        margin-left: 250px;
+    }
+    #comic2 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c2{
+        margin-left: 250px;
+    }
+    #comic3 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c3{
+        margin-left: 250px;
+    }
+    #comic4 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c4{
+        margin-left: 250px;
+    }
+    .c5{
+        margin-left: 250px;
+    }
+    #comic5 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c6{
+        margin-left: 250px;
+    }
+    #comic6 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    
+    .c7{
+        margin-left: 250px;
+    }
+    #comic7 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c8{
+        margin-left: 250px;
+    }
+    #comic8 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 16px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
     .tablas{
         margin-top: 20%;
+        height: 2985px;
+        width: 95%;
+    }
+    #comic1 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c1{
+        margin-left: 350px;
+    }
+    #comic2 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c2{
+        margin-left: 350px;
+    }
+    #comic3 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c3{
+        margin-left: 350px;
+    }
+    #comic4 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c4{
+        margin-left: 350px;
+    }
+    .c5{
+        margin-left: 350px;
+    }
+    #comic5 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c6{
+        margin-left: 350px;
+    }
+    #comic6 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+        
+    .c7{
+        margin-left: 350px;
+    }
+    #comic7 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c8{
+        margin-left: 350px;
+    }
+    #comic8 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 25px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
     }
 }
