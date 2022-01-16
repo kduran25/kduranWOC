@@ -79,9 +79,7 @@ a {
 .c1 {
     transition: all 2s;
 }
-.c1:hover {
-    transform: skew(15deg);
-}
+
 #comic2 {
     background-image: url(../Imagenes/Locke.jpg);
     background-size: cover;
@@ -98,9 +96,6 @@ a {
     transition: all 2s;
 }
 
-.c2:hover {
-    transform: skew(15deg);
-}
 #comic3 {
     background-image: url(../Imagenes/Spidey.PNG);
     background-size: cover;
@@ -117,9 +112,7 @@ a {
     transition: all 2s;
 }
 
-.c3:hover {
-    transform: skew(15deg);
-}
+
 
 #comic4 {
     background-image: url(../Imagenes/Tboys.PNG);
@@ -137,9 +130,6 @@ a {
     transition: all 2s;
 }
 
-.c4:hover {
-    transform: skew(15deg);
-}
 
 
 .title {
