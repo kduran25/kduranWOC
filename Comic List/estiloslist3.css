@@ -52,7 +52,7 @@ a {
     margin-top: 10%;
     margin-left: 3%;
     margin-bottom: 5%;
-    height: 822px;
+    height: fit-content;
     width: 90%;
     border-color: gray;
     background-color: #530e15;
@@ -153,7 +153,7 @@ img{
 @media only screen and (max-width: 320px) {
     .tablas{
         margin-top: 75%;
-        height: 1720px;
+        height: fit-content;
         width: 90%;
         
     }
@@ -184,7 +184,7 @@ img{
 
     .tablas{
         margin-top: 75%;
-        height: 1750px;
+        height: fit-content;
         width: 90%;   
     }
     .c9{
@@ -214,7 +214,7 @@ img{
     
     .tablas{
         margin-top: 60%;
-        height: 1768px;
+        height: fit-content;
         width: 90%;
     }
     .c9{
@@ -243,7 +243,7 @@ img{
     
     .tablas{
         margin-top: 62%;
-        height: 1562px;
+        height: fit-content;
         width: 90%;
     }
 
@@ -273,7 +273,7 @@ img{
     
     .tablas{
         margin-top: 75%;
-        height: 1490px;
+        height: fit-content;
         width: 90%;
     }
 
@@ -303,7 +303,7 @@ img{
 @media only screen and (min-width: 751px) and (max-width: 1023px) {
     .tablas{
         margin-top: 75%;
-        height: 1900px;
+        height: fit-content;
         width: 90%;
     }
     .c9{
@@ -352,7 +352,7 @@ img{
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
     .tablas{
         margin-top: 20%;
-        height: 3050px;
+        height: fit-content;
         width: 95%;
     }
     #comic9 {
@@ -409,7 +409,7 @@ img{
 @media only screen and (min-width: 1280px) and (max-width: 1580px) {
     .tablas{
         margin-top: 20%;
-        height: 2910px;
+        height: fit-content;
         width: 95%;
     }
     #comic9 {

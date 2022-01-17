@@ -11,7 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
     height: 100%;
     background-image: url(../Imagenes/fondo.png);
-    background-size: contain;
+    background-size: cover;
 }
 header { 
     height: 80px;
@@ -49,7 +49,7 @@ img {
     margin-top: 10%;
     margin-left: 3%;
     margin-bottom: 5%;
-    height: 822px;
+    height: fit-content;
     width: 90%;
     border-color: gray;
     background-color: #041c49;
@@ -165,9 +165,17 @@ img{
     width: 30px;
 }
 @media only screen and (max-width: 360px) {
+    body{ 
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+        background-image: url(../Imagenes/fondo.png);
+        background-size: contain;
+    }
     .tablas{
         margin-top: 75%;
-        height: 1750px;
+        height: fit-content;
         width: 90%;
     }
     .c1{
@@ -199,10 +207,18 @@ img{
     }
 }
 @media only screen and (min-width: 361px) and (max-width: 750px) {
+    body{ 
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+        background-image: url(../Imagenes/fondo.png);
+        background-size: contain;
+    }
     
     .tablas{
         margin-top: 75%;
-        height: 1860px;
+        height: fit-content;
         width: 90%;
     }
     .c1{
@@ -233,10 +249,18 @@ img{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 }
-@media only screen and (min-width: 751px) and (max-width: 1023px) {
+@media only screen and (min-width: 751px) and (max-width: 990px) {
+    body{ 
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+        background-image: url(../Imagenes/fondo.png);
+        background-size: contain;
+    }
     .tablas{
-        margin-top: 50%;
-        height: 1925px;
+        margin-top: 30%;
+        height: fit-content;
         width: 90%;
     }
     #comic1 {
@@ -287,10 +311,81 @@ img{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 }
-    @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+@media only screen and (min-width: 990px) and (max-width: 1024px) {
+    body{ 
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+        background-image: url(../Imagenes/fondo.png);
+        background-size: contain;
+    }
+    .tablas{
+        margin-top: 50%;
+        height: fit-content;
+        width: 90%;
+    }
+    #comic1 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c1{
+        margin-left: 250px;
+    }
+    #comic2 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c2{
+        margin-left: 250px;
+    }
+    #comic3 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c3{
+        margin-left: 250px;
+    }
+    #comic4 {
+        height: 290px;
+        border: 5px solid gray;
+        width: 200px;
+    }
+    .c4{
+        margin-left: 250px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 16px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
+    }
+    footer {
+        width: 100%;
+        color: white;
+        text-transform: capitalize;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}        
+
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+        body{ 
+            color: white;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            height: 100%;
+            background-image: url(../Imagenes/fondo.png);
+            background-size: contain;
+        }
         .tablas{
             margin-top: 20%;
-            height: 3445px;
+            height: fit-content;
             width: 95%;
         }
         #comic1 {
@@ -334,4 +429,61 @@ img{
         #container {
             margin-left: 0.1px;
         }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1530px) {
+    body{ 
+        color: white;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+        background-image: url(../Imagenes/fondo.png);
+        background-size: contain;
+    }
+
+    .tablas{
+        margin-top: 20%;
+        height: fit-content;
+        width: 95%;
+    }
+    #comic1 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c1{
+        margin-left: 350px;
+    }
+    #comic2 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c2{
+        margin-left: 350px;
+    }
+    #comic3 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c3{
+        margin-left: 350px;
+    }
+    #comic4 {
+        height: 490px;
+        border: 5px solid gray;
+        width: 300px;
+    }
+    .c4{
+        margin-left: 350px;
+    }
+    .container {
+        margin-top: 35px;
+        font-size: 30px;
+        margin-left: 1px;
+        border: unset;
+    }
+    #container {
+        margin-left: 0.1px;
+    }
 }

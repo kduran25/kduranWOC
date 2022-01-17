@@ -11,7 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
     height: 100%;
     background-image:url(../Imagenes/fondo.png);
-    background-size: contain;
+    background-size: cover;
 }
 header { 
     height: 80px;
@@ -52,7 +52,7 @@ a {
     margin-top: 10%;
     margin-left: 3%;
     margin-bottom: 5%;
-    height: 822px;
+    height: fit-content;
     width: 90%;
     border-color: gray;
     background-color: #530e15;
@@ -153,9 +153,12 @@ img{
 
 
 @media only screen and (max-width: 320px) {
+    body {
+        background-size: contain;
+    }
     .tablas{
         margin-top: 75%;
-        height: 1720px;
+        height: fit-content;
         width: 90%;
         
     }
@@ -184,9 +187,13 @@ img{
 
 @media only screen and (max-width: 360px) {
 
+    body {
+        background-size: contain;
+    }
+
     .tablas{
         margin-top: 75%;
-        height: 1650px;
+        height: fit-content;
         width: 90%;   
     }
 
@@ -216,9 +223,13 @@ img{
 
 @media only screen and (min-width: 361px) and (max-width: 376px) {
     
+    body {
+        background-size: contain;
+    }
+
     .tablas{
         margin-top: 75%;
-        height: 1613px;
+        height: fit-content;
         width: 90%;
     }
 
@@ -246,9 +257,13 @@ img{
 }
 @media only screen and (min-width: 376px) and (max-width: 750px) {
     
+    body {
+        background-size: contain;
+    }
+
     .tablas{
         margin-top: 75%;
-        height: 1522px;
+        height: fit-content;
         width: 90%;
     }
 
@@ -275,9 +290,13 @@ img{
     }
 }
 @media only screen and (min-width: 751px) and (max-width: 1023px) {
+    body {
+        background-size: contain;
+    }
+   
     .tablas{
         margin-top: 75%;
-        height: 1900px;
+        height: fit-content;
         width: 90%;
     }
 
@@ -325,9 +344,13 @@ img{
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+    body {
+        background-size: contain;
+    }
     .tablas{
         margin-top: 20%;
-        height: 2985px;
+        height: fit-content;
         width: 95%;
     }
 
