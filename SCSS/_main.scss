@@ -597,7 +597,7 @@ div#demo.carousel.slide {
             }
         }
     }
-    @media only screen and (min-width: 1051px) and (max-width: 1280px) {
+    @media only screen and (min-width: 1051px) and (max-width: 1100px) {
         .gridcontainer{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -727,9 +727,383 @@ div#demo.carousel.slide {
             }
         }
     }
+@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+        .gridcontainer{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: repeat(Edge 17/50);
+        }
+    
+        nav a:hover{
+            color: #002973;
+        }
+    
+        div#demo.carousel.slide {
+            background-color: $colorSecundario;
+            width: 70%;
+            height: 400px;
+            margin-left: 15%;
+            margin-top: 20%;
+            margin-bottom: 3%;
+            border: solid gray;
+            & .carousel-inner {
+            width: 70%;
+            height: 400px;
+            background-color: #530e1500;
+            text-align: center;
+            margin-bottom: 10%;
+            margin-left: 15%;
+               &  img {
+            width: 45%;
+            height: 340px;
+                }
+            }
+        }    
+    
+        .flexul{
+            display: grid;
+            grid-column: 1/4;
+            grid-row: 8/9;
+            height: 600px;
+            width: 300px;
+            border: 2px solid gray;
+            background-color: $colorSecundario;
+            justify-content: space-around;
+            align-items: left;
+            margin-left: 10%;
+            flex-flow: column;
+            margin-top: 5%;
+            flex-wrap: wrap;
+            & li {
+                display: flex;
+                background-color: gray;
+                width: 100px;
+                height: 100px;
+                border: 2px solid gray;
+                padding: 1%;
+                flex-wrap: wrap;
+                align-items: center;
+                text-align: right;
+                justify-content: space-around;
+                font-size: 16px;
+            }
+        }
+        .flexum{
+            display: grid;
+            grid-column: 3/4;
+            grid-row: 10/11;
+            padding: 3%;
+            height: 600px;
+            width: 300px;
+            border: 2px solid gray;
+            background-color: $colorTerciario;
+            justify-content: space-around;
+            align-items: left;
+            margin-left: 10%;
+            flex-flow: column;
+            margin-top: 5%;
+            & li {
+                display: flex;
+                background-color: gray;
+                width: 100px;
+                height: 100px;
+                border: 2px solid gray;
+                padding: 1%;
+                flex-wrap: wrap;
+                align-items: center;
+                text-align: right;
+                justify-content: space-around;
+            }
+        }
+        .flexur{
+            display: grid;
+            grid-column: 4/4;
+            grid-row: 12/13;        
+            padding: 3%;
+            height: 600px;
+            width: 300px;
+            border: 2px solid gray;
+            background-color: $colorSecundario;
+            justify-content: space-around;
+            align-items: left;
+            margin-left: 35%;
+            flex-flow: column;
+            margin-top: 5%;
+            & li {
+                display: flex;
+                background-color: gray;
+                width: 100px;
+                height: 100px;
+                border: 2px solid gray;
+                padding: 1%;
+                flex-wrap: wrap;
+                align-items: center;
+                text-align: right;
+                justify-content: space-around;
+            }
+        }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
 
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(Edge 17/50);
+    }
 
+    nav a:hover{
+        color: #002973;
+    }
 
+    div#demo.carousel.slide {
+        background-color: $colorSecundario;
+        width: 65%;
+        height: 540px;
+        margin-left: 15%;
+        margin-top: 20%;
+        margin-bottom: 3%;
+        border: solid gray;
+        & .carousel-inner {
+        width: 70%;
+        height: 540px;
+        background-color: #530e1500;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-left: 15%;
+           &  img {
+        width: 45%;
+        height: 500px;
+            }
+        }
+    }    
+
+    .flexul{
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 8/9;
+        height: 700px;
+        width: 400px;
+        border: 2px solid gray;
+        background-color: $colorSecundario;
+        justify-content: space-around;
+        align-items: left;
+        margin-left: 10%;
+        flex-flow: column;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        & li {
+            display: flex;
+            background-color: gray;
+            width: 120px;
+            height: 120px;
+            border: 2px solid gray;
+            padding: 1%;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: right;
+            justify-content: space-around;
+            font-size: 16px;
+        }
+    }
+    .flexum{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 10/11;
+        padding: 3%;
+        height: 700px;
+        width: 400px;
+        border: 2px solid gray;
+        background-color: $colorTerciario;
+        justify-content: space-around;
+        align-items: left;
+        margin-left: 10%;
+        flex-flow: column;
+        margin-top: 5%;
+        & li {
+            display: flex;
+            background-color: gray;
+            width: 120px;
+            height: 120px;
+            border: 2px solid gray;
+            padding: 1%;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: right;
+            justify-content: space-around;
+        }
+    }
+    .flexur{
+        display: grid;
+        grid-column: 4/4;
+        grid-row: 12/13;        
+        padding: 3%;
+        height: 700px;
+        width: 400px;
+        border: 2px solid gray;
+        background-color: $colorSecundario;
+        justify-content: space-around;
+        align-items: left;
+        margin-left: 3%;
+        flex-flow: column;
+        margin-top: 5%;
+        & li {
+            display: flex;
+            background-color: gray;
+            width: 120px;
+            height: 120px;
+            border: 2px solid gray;
+            padding: 1%;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: right;
+            justify-content: space-around;
+        }
+    }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(Edge 17/50);
+    }
+    
+    
+    div#demo.carousel.slide {
+        background-color: $colorSecundario;
+        width: 50%;
+        height: 600px;
+        margin-left: 23%;
+        margin-top: 7%;
+        margin-bottom: 3%;
+        border: solid gray;
+        & .carousel-inner {
+            height: 550px;
+            width: 400px;
+            background-color: $colorSecundario;
+            text-align: center;
+            margin-bottom: 10%;
+            margin-left: 30%;
+            & img {
+            width: 100%;
+            height: 100%;
+            }
+        }    
+    }
+    .gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(Edge 17/50);
+    }
+
+    nav a:hover{
+        color: #002973;
+    }
+
+    div#demo.carousel.slide {
+        background-color: $colorSecundario;
+        width: 65%;
+        height: 540px;
+        margin-left: 15%;
+        margin-top: 20%;
+        margin-bottom: 3%;
+        border: solid gray;
+        & .carousel-inner {
+        width: 70%;
+        height: 540px;
+        background-color: #530e1500;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-left: 15%;
+           &  img {
+        width: 45%;
+        height: 500px;
+            }
+        }
+    }    
+
+    .flexul{
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 8/9;
+        height: 700px;
+        width: 400px;
+        border: 2px solid gray;
+        background-color: $colorSecundario;
+        justify-content: space-around;
+        align-items: left;
+        margin-left: 10%;
+        flex-flow: column;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        & li {
+            display: flex;
+            background-color: gray;
+            width: 120px;
+            height: 120px;
+            border: 2px solid gray;
+            padding: 1%;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: right;
+            justify-content: space-around;
+            font-size: 16px;
+        }
+    }
+    .flexum{
+        display: grid;
+        grid-column: 3/4;
+        grid-row: 10/11;
+        padding: 3%;
+        height: 700px;
+        width: 400px;
+        border: 2px solid gray;
+        background-color: $colorTerciario;
+        justify-content: space-around;
+        align-items: left;
+        margin-left: 10%;
+        flex-flow: column;
+        margin-top: 5%;
+        & li {
+            display: flex;
+            background-color: gray;
+            width: 120px;
+            height: 120px;
+            border: 2px solid gray;
+            padding: 1%;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: right;
+            justify-content: space-around;
+        }
+    }
+    .flexur{
+        display: grid;
+        grid-column: 4/4;
+        grid-row: 12/13;        
+        padding: 3%;
+        height: 700px;
+        width: 400px;
+        border: 2px solid gray;
+        background-color: $colorSecundario;
+        justify-content: space-around;
+        align-items: left;
+        margin-left: 3%;
+        flex-flow: column;
+        margin-top: 5%;
+        & li {
+            display: flex;
+            background-color: gray;
+            width: 120px;
+            height: 120px;
+            border: 2px solid gray;
+            padding: 1%;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: right;
+            justify-content: space-around;
+        }
+    }
+}
 
 
 
