@@ -59,14 +59,14 @@ a {
 }
 
 
-#comic13 {
-    background-image: url(../Imagenes/Nightwing.jpg);
+#comic17 {
+    background-image: url(../Imagenes/Chycku.jpg);
     background-size: cover;
     height: 200px;
     width: 180px;
 
 }
-.comic13-1 {
+.comic17-1 {
     display: flex;
     flex-flow: row wrap;
     border:  3px solid gray;
@@ -77,57 +77,57 @@ a {
     margin-top: 35px;
     border-left: 3px solid gray;
 }
-.c13 {
+.c17 {
     transition: all 2s;
 }
 
-#comic14 {
-    background-image: url(../Imagenes/SpiderMan2099.jpg);
+#comic18 {
+    background-image: url(../Imagenes/TheTheater.jpg);
     background-size: cover;
     height: 200px;
     width: 180px;
 }
-.comic14-1 {
+.comic18-1 {
     display: flex;
     flex-flow: row wrap;
     border:  3px solid gray;
     text-align: justify;
 }
-.c14 {
+.c18 {
     transition: all 2s;
 }
 
-#comic15 {
+#comic19 {
     background-image: url(../Imagenes/Lifeisstrange.jpg);
     background-size: cover;
     height: 200px;
     width: 180px;
 }
-.comic15-1 {
+.comic19-1 {
     display: flex;
     flex-flow: row wrap;
     border:  3px solid gray;
     text-align: justify;
 }
-.c15 {
+.c19 {
     transition: all 2s;
 }
 
 
 
-#comic16 {
+#comic20 {
     background-image: url(../Imagenes/spiderverse.jpg);
     background-size: cover;
     height: 200px;
     width: 180px;
 }
-.comic16-1 {
+.comic20-1 {
     display: flex;
     flex-flow: row wrap;
     border:  3px solid gray;
     text-align: justify;
 }
-.c16 {
+.c20 {
     transition: all 2s;
 }
 
@@ -157,16 +157,16 @@ img{
         width: 90%;
         
     }
-    .c13{
+    .c17{
         margin-left: 50px;
     }
-    .c14{
+    .c18{
         margin-left: 50px;
     }
-    .c15{
+    .c19{
         margin-left: 50px;
     }
-    .c16{
+    .c20{
         margin-left: 50px;
     }
     .container {
@@ -187,16 +187,16 @@ img{
         height: fit-content;
         width: 90%;   
     }
-    .c13{
+    .c17{
         margin-left: 70px;
     }
-    .c14{
+    .c17{
         margin-left: 70px;
     }
-    .c15{
+    .c19{
         margin-left: 70px;
     }
-    .c16{
+    .c20{
         margin-left: 70px;
     }
     .container {
@@ -217,16 +217,16 @@ img{
         height: fit-content;
         width: 90%;
     }
-    .c13{
+    .c17{
         margin-left: 70px;
     }
-    .c14{
+    .c18{
         margin-left: 70px;
     }
-    .c15{
+    .c19{
         margin-left: 70px;
     }
-    .c16{
+    .c20{
         margin-left: 70px;
     }
     .container {
@@ -247,16 +247,16 @@ img{
         width: 90%;
     }
 
-    .c13{
+    .c17{
         margin-left: 70px;
     }
-    .c14{
+    .c18{
         margin-left: 70px;
     }
-    .c15{
+    .c19{
         margin-left: 70px;
     }
-    .c16{
+    .c20{
         margin-left: 70px;
     }
     .container {
@@ -277,16 +277,16 @@ img{
         width: 90%;
     }
 
-    .c13{
+    .c17{
         margin-left: 140px;
     }
-    .c14{
+    .c18{
         margin-left: 140px;
     }
-    .c15{
+    .c19{
         margin-left: 140px;
     }
-    .c16{
+    .c20{
         margin-left: 140px;
     }
     .container {
@@ -306,35 +306,35 @@ img{
         height: fit-content;
         width: 90%;
     }
-    .c13{
+    .c17{
         margin-left: 250px;
     }
-    #comic13 {
+    #comic17 {
         height: 290px;
         border: 5px solid gray;
         width: 200px;
     }
-    .c14{
+    .c18{
         margin-left: 250px;
     }
-    #comic14 {
+    #comic18 {
         height: 290px;
         border: 5px solid gray;
         width: 200px;
     }
     
-    .c15{
+    .c19{
         margin-left: 250px;
     }
-    #comic15 {
+    #comic19 {
         height: 290px;
         border: 5px solid gray;
         width: 200px;
     }
-    .c16{
+    .c20{
         margin-left: 250px;
     }
-    #comic16 {
+    #comic20 {
         height: 290px;
         border: 5px solid gray;
         width: 200px;
@@ -355,35 +355,35 @@ img{
         height: fit-content;
         width: 95%;
     }
-    #comic13 {
+    #comic17 {
         height: 490px;
         border: 5px solid gray;
         width: 300px;
     }
-    .c13{
+    .c17{
         margin-left: 350px;
     }
-    #comic14 {
+    #comic18 {
         height: 490px;
         border: 5px solid gray;
         width: 300px;
     }
-    .c14{
+    .c18{
         margin-left: 350px;
     }
 
-    #comic15 {
+    #comic19 {
         height: 490px;
         border: 5px solid gray;
         width: 300px;
     }
-    .c15{
+    .c19{
         margin-left: 350px;
     }
-    .c16{
+    .c20{
         margin-left: 350px;
     }
-    #comic16 {
+    #comic20 {
         height: 490px;
         border: 5px solid gray;
         width: 300px;
@@ -405,36 +405,36 @@ img{
         height: fit-content;
         width: 95%;
     }
-    #comic13 {
+    #comic17 {
         height: 490px;
         border: 5px solid gray;
         width: 300px;
     }
-    .c13{
+    .c17{
         margin-left: 350px;
     }
-    #comic14 {
+    #comic18 {
         height: 490px;
         border: 5px solid gray;
         width: 300px;
     }
-    .c14{
+    .c18{
         margin-left: 350px;
     }
-    #comic15 {
+    #comic19 {
         height: 490px;
         border: 5px solid gray;
         width: 300px;
     }
-    .c15{
+    .c19{
         margin-left: 350px;
     }
-    #comic16 {
+    #comic20 {
         height: 490px;
         border: 5px solid gray;
         width: 300px;
     }
-    .c16{
+    .c20{
         margin-left: 350px;
     }
 
