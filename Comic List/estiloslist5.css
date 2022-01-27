@@ -149,38 +149,10 @@ img{
     width: 25px;
 }
 
-
-@media only screen and (max-width: 320px) {
-    .tablas{
-        margin-top: 75%;
-        height: fit-content;
-        width: 90%;
-        
-    }
-    .c17{
-        margin-left: 50px;
-    }
-    .c18{
-        margin-left: 50px;
-    }
-    .c19{
-        margin-left: 50px;
-    }
-    .c20{
-        margin-left: 50px;
-    }
-    .container {
-        margin-top: 35px;
-        font-size: 12px;
-        margin-left: 1px;
-        border: unset;
-    }
-    #container {
-        margin-left: 0.1px;
-    }
-}
-
 @media only screen and (max-width: 360px) {
+    body {
+        background-size: contain;
+    }
 
     .tablas{
         margin-top: 75%;
@@ -211,7 +183,9 @@ img{
 }
 
 @media only screen and (min-width: 361px) and (max-width: 376px) {
-    
+    body {
+        background-size: contain;
+    }
     .tablas{
         margin-top: 60%;
         height: fit-content;
@@ -240,7 +214,9 @@ img{
     }
 }
 @media only screen and (min-width: 376px) and (max-width: 539px) {
-    
+    body {
+        background-size: contain;
+    }
     .tablas{
         margin-top: 62%;
         height: fit-content;
@@ -270,7 +246,9 @@ img{
     }
 }
 @media only screen and (min-width: 540px) and (max-width: 750px) {
-    
+    body {
+        background-size: contain;
+    }
     .tablas{
         margin-top: 75%;
         height: fit-content;
@@ -301,6 +279,9 @@ img{
 }
 
 @media only screen and (min-width: 751px) and (max-width: 1023px) {
+    body {
+        background-size: contain;
+    }
     .tablas{
         margin-top: 75%;
         height: fit-content;
@@ -350,6 +331,9 @@ img{
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    body {
+        background-size: contain;
+    }
     .tablas{
         margin-top: 20%;
         height: fit-content;
@@ -400,6 +384,9 @@ img{
     }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1580px) {
+    body {
+        background-size: contain;
+    }
     .tablas{
         margin-top: 20%;
         height: fit-content;

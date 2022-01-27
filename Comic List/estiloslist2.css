@@ -152,38 +152,6 @@ img{
 }
 
 
-@media only screen and (max-width: 320px) {
-    body {
-        background-size: contain;
-    }
-    .tablas{
-        margin-top: 75%;
-        height: fit-content;
-        width: 90%;
-        
-    }
-    .c5{
-        margin-left: 50px;
-    }
-    .c6{
-        margin-left: 50px;
-    }
-    .c7{
-        margin-left: 50px;
-    }
-    .c8{
-        margin-left: 50px;
-    }
-    .container {
-        margin-top: 35px;
-        font-size: 12px;
-        margin-left: 1px;
-        border: unset;
-    }
-    #container {
-        margin-left: 0.1px;
-    }
-}
 
 @media only screen and (max-width: 360px) {
 

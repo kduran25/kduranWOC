@@ -150,37 +150,11 @@ img{
 }
 
 
-@media only screen and (max-width: 320px) {
-    .tablas{
-        margin-top: 75%;
-        height: fit-content;
-        width: 90%;
-        
-    }
-    .c13{
-        margin-left: 50px;
-    }
-    .c14{
-        margin-left: 50px;
-    }
-    .c15{
-        margin-left: 50px;
-    }
-    .c16{
-        margin-left: 50px;
-    }
-    .container {
-        margin-top: 35px;
-        font-size: 12px;
-        margin-left: 1px;
-        border: unset;
-    }
-    #container {
-        margin-left: 0.1px;
-    }
-}
 
 @media only screen and (max-width: 360px) {
+    body {
+        background-size: contain;
+    }
 
     .tablas{
         margin-top: 75%;
@@ -211,6 +185,9 @@ img{
 }
 
 @media only screen and (min-width: 361px) and (max-width: 376px) {
+    body {
+        background-size: contain;
+    }
     
     .tablas{
         margin-top: 60%;
