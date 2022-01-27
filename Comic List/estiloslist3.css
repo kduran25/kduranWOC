@@ -11,7 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
     height: 100%;
     background-image:url(../Imagenes/fondo.png);
-    background-size: contain;
+    background-size: cover;
 }
 header { 
     height: 80px;
