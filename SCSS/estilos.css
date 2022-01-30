@@ -421,7 +421,7 @@ div#demo.carousel.slide .carousel-inner img {
   div#demo.carousel.slide {
     background-color: #530e15ef;
     width: 80%;
-    height: 400px;
+    height: 600px;
     margin-left: 10%;
     margin-top: 58%;
     margin-bottom: 3%;
@@ -620,7 +620,7 @@ div#demo.carousel.slide .carousel-inner img {
     -ms-grid-row: 8;
     -ms-grid-row-span: 1;
     grid-row: 8/9;
-    height: 650px;
+    height: 690px;
     width: 300px;
     border: 2px solid gray;
     background-color: #530e15ef;
