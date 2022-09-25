@@ -40,17 +40,17 @@
 //     repetir = prompt('ingresa un valor')
 // }
 
-let savedPass = 'messi';
-let continuar = true;
-let userPass = prompt('Ingresa tu contraseña');
+// let savedPass = 'messi';
+// let continuar = true;
+// let userPass = prompt('Ingresa tu contraseña');
 
-while(continuar){
-    if(savedPass===userPass){
-        alert('Hola!')
-        continuar = false;
-        break;
-    }
-    alert('Contraseña incorrecta');
-    userPass = prompt('Ingresa tu contraseña');
-}
+// while(continuar){
+//     if(savedPass===userPass){
+//         alert('Hola!')
+//         continuar = false;
+//         break;
+//     }
+//     alert('Contraseña incorrecta');
+//     userPass = prompt('Ingresa tu contraseña');
+// }
 
