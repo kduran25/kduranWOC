@@ -12,9 +12,6 @@ const btnLog = document.getElementById('login');
 
 btnLog.onclick = () => {
     beginLog()
-    userList.forEach(user => {
-        console.log(userList.indexOf(persona))
-    });
 }
 
 function beginLog() {
@@ -47,6 +44,7 @@ function beginLog() {
                 }
             }    
         }
+
     for(let i=2;i>=0;i--){
         let userName = prompt('Ingresa tu nombre de usuario. tienes '+(i+1)+' intentos');
         if (userName === persona1.nombre){
@@ -59,10 +57,16 @@ function beginLog() {
         } else if (userName != persona1.nombre || userPass != persona1.contraseña) {
             alert ('nombre de usuario o contraseña incorrecta, por favor ingresala nuevamente te quedan ' + i + ' intentos');}
     }
-    }
-
     userList.slice (0,3)
     console.log(userList)
+    userList.forEach(user => {
+        console.log('El nuevo usuario resgitrado es el numero ' + (userList.indexOf(persona1) + 1))
+    });
+        const aCadena = userList.toString();
+        console.log('Tambien te mostramos sus datos de registro que son: nombre de usuario ' + persona1.nombre + ' y su contraseña es ' + persona1.contraseña);
+    }
+
+
 
 
 function comic(Coname, ID, year, dateAgg, editorial) {
@@ -93,5 +97,4 @@ console.log (comicList)
 comicList.reverse()
 console.log (comicList)
 console.log('El index del comic es ' + comicList.indexOf (Comic4));
-
 
