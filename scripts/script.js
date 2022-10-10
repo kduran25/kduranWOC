@@ -1,50 +1,69 @@
 
+function persona (nombre, contraseña) {
+    this.nombre =  nombre,
+    this.contraseña = contraseña;
+}
 
+const userList = [] 
 
-alert('A continuacion te solicitaremos los datos para que te registres');
-let userReg = prompt('Crea el nombre de usuario que deseas utilizar');
-let passReg = prompt('Crea la contraseña de ingreso');
+console.log(userList)
 
+const btnLog = document.getElementById('login');
 
-function Login(){
-    let login = false
-    while (passReg.length<8) {
+btnLog.onclick = () => {
+    beginLog()
+    userList.forEach(user => {
+        console.log(userList.indexOf(persona))
+    });
+}
+
+function beginLog() {
+    alert('A continuacion te solicitaremos los datos para que te registres');
+    loginBtn()
+}
+    function loginBtn() {
+        const persona1 = {
+            nombre: prompt('Crea el nombre de usuario que deseas utilizar'),
+            contraseña: prompt('Crea la contraseña de ingreso'),
+        }
+        userList.push(persona1);
+        let login = false;
+        while (persona1.contraseña.length<8) {
         alert('La contraseña debe contener al menos 8 caracteres')
         let newPassReg = prompt('ingresa nuevamente la contraseña')
             if (newPassReg.length>=8) {
                 alert ('A continuacion te vamos a solicitar ingresar tus datos registrados, ten en cuenta que solo contaras con 3 intentos para ingresarlos correctamente')
                 for(let i=2;i>=0;i--){
                     let userName = prompt('Ingresa tu nombre de usuario. tienes '+(i+1)+' intentos');
-                    if (userName === userReg){
+                    if (userName === persona1.nombre){
                         alert ('Nombre de usuario correcto, ahora ingresa tu contraseña');
-                        let userPass = prompt('Ingresa tu contraseña. tienes '+(i+1)+' intentos');
-                        if (userPass === newPassReg) {
+                        let contraseña = prompt('Ingresa tu contraseña. tienes '+(i+1)+' intentos');
+                        if (contraseña === newPassReg) {
                             alert ('Contraseña correcta, Bienvenid@ '+ userName +'');
                             login = true;
-                            break;} 
-                    } else if (userName != userReg || userPass != newPassReg) {
+                            break;} else if (userName != persona1.nombre || contraseña != newPassReg) {
                         alert ('nombre de usuario o contraseña incorrecta, por favor ingresala nuevamente te quedan ' + i + ' intentos');} 
                     }
+                }
             }    
         }
-    alert ('A continuacion te vamos a solicitar ingresar tus datos registrados, ten en cuenta que solo contaras con 3 intentos para ingresarlos correctamente')
     for(let i=2;i>=0;i--){
         let userName = prompt('Ingresa tu nombre de usuario. tienes '+(i+1)+' intentos');
-        if (userName === userReg){
+        if (userName === persona1.nombre){
             alert ('Nombre de usuario correcto, ahora ingresa tu contraseña');
             let userPass = prompt('Ingresa tu contraseña. tienes '+(i+1)+' intentos');
-            if (userPass === passReg) {
+            if (userPass === persona1.contraseña) {
                 alert ('Contraseña correcta, Bienvenid@ '+ userName +'');
                 login = true;
                 break;} 
-        } else if (userName != userReg || userPass != passReg) {
+        } else if (userName != persona1.nombre || userPass != persona1.contraseña) {
             alert ('nombre de usuario o contraseña incorrecta, por favor ingresala nuevamente te quedan ' + i + ' intentos');}
     }
+    }
 
+    userList.slice (0,3)
+    console.log(userList)
 
-}
-
-Login ()
 
 function comic(Coname, ID, year, dateAgg, editorial) {
     this.name = Coname;
@@ -68,3 +87,11 @@ const Comic4 = new comic('LIFE IS STRANGE', 2015, 21, new Date("March 10, 2022 1
 const comicList = []
 comicList.push(Comic1,Comic2,Comic3,Comic4)
 console.log (comicList)
+console.log('El index del comic es ' + comicList.indexOf (Comic4));
+comicList.slice (0,3)
+console.log (comicList)
+comicList.reverse()
+console.log (comicList)
+console.log('El index del comic es ' + comicList.indexOf (Comic4));
+
+
