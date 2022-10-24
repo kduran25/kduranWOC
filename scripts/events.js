@@ -1,1 +1,0 @@
-const btnSaludoGenerico = document.getElementById('');

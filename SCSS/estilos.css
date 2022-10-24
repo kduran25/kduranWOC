@@ -1089,6 +1089,24 @@ div#demo.carousel.slide .carousel-inner img {
         justify-content: space-around;
   }
 }
+#btnModalLogin{
+  color: #530e15;
+  margin: auto;
+  background: rgb(253, 253, 253);
+  border-color: #530e15;
+  background-color: gray;
+
+}
+#modalLogin{
+color: #530e15;
+
+
+}
+#login {
+  color: black;
+  border-color: #530e15;
+
+}
 
 @media only screen and (min-width: 1100px) and (max-width: 1300px) {
   .gridcontainer {
