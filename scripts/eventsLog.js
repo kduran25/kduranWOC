@@ -20,12 +20,51 @@ function persona(nombre, apellido, nombreUsuario, contraseña) {
     (this.nombreUsuario = nombreUsuario),
     (this.contraseña = contraseña);
 }
+
+
+
 function usuario(username, password) {
   (this.username=username),
   (this.password=password);
 }
 
 const btnLog = document.getElementById("login");
+
+let Capturar = function () {
+  const persona1 = new persona(
+    regName.value,
+    regLastName.value,
+    regUserName.value,
+    regPassword.value
+  );
+
+  if (persona1.contraseña.length < 8) {
+    Swal.fire({
+      title: "Error!",
+      text: "La contraseña debe tener al menos 8 caracteres",
+      icon: "error",
+      confirmButtonText: "Ok",
+    });
+  } else if (!regName.value || !regUserName.value || !regPassword.value) {
+    Swal.fire({
+      title: "Error!",
+      text: "no has completado al menos uno de los campos obligatorios",
+      icon: "error",
+      confirmButtonText: "Ok",
+    });
+  } else {
+    userList.push(persona1);
+    console.log(userList);
+    guardarDatos();
+  }
+
+
+};
+register.addEventListener("click", (e) => {
+  e.preventDefault();
+  Capturar();
+
+});
 
 
 btnLog.onclick = (e) => {
@@ -39,9 +78,33 @@ function beginLog() {
     userLogin.value,
     passLogin.value,
   );
-  if (usuario1.username==userList.persona1.nombreUsuario) {
-    alert('tu nombre de usuario es correcto')
-  }
+  let data = validacion(userList, regUserName.value, regPassword.value);
+  if (!data) {
+    alert('Usuario y/o contraseña erróneos');} else {
+      if (recordar.checked) {
+          guardarDatos(data, localStorage);
+          saludar(recuperarUsuario(localStorage));
+      } else {
+          guardarDatos(data, sessionStorage);
+          saludar(recuperarUsuario(sessionStorage));
+      }
+      //Recién ahora cierro el cuadrito de login
+      modal.hide();
+}
+
+function validacion(usersArray, user, pass) {
+  let encontrado = usersArray.find((userDB) => userDB.nombreUsuario == user);
+
+    if (typeof encontrado === 'undefined') {
+        return false;
+    } else {
+        if (encontrado.pass != pass) {
+            return false;
+        } else {
+            return encontrado;
+        }
+    }
+}
 }
 
 function userLogged(userList) {
@@ -70,37 +133,3 @@ function getUser(user) {
   }
 }
 
-register.addEventListener("click", (e) => {
-  e.preventDefault();
-
-  let Capturar = function () {
-    const persona1 = new persona(
-      regName.value,
-      regLastName.value,
-      regUserName.value,
-      regPassword.value
-    );
-
-    if (persona1.contraseña.length < 8) {
-      Swal.fire({
-        title: "Error!",
-        text: "La contraseña debe tener al menos 8 caracteres",
-        icon: "error",
-        confirmButtonText: "Ok",
-      });
-    } else if (!regName.value || !regUserName.value || !regPassword.value) {
-      Swal.fire({
-        title: "Error!",
-        text: "no has completado al menos uno de los campos obligatorios",
-        icon: "error",
-        confirmButtonText: "Ok",
-      });
-    } else {
-      userList.push(persona1);
-      console.log(userList);
-      guardarDatos();
-    }
-  };
-  Capturar();
-
-});
