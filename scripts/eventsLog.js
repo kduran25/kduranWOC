@@ -52,7 +52,6 @@ let Capturar = function () {
   } else {
     userList.push(persona1);
     console.log(userList);
-    guardarDatos();
   }
 };
 register.addEventListener("click", (e) => {
@@ -71,7 +70,12 @@ function beginLog() {
   getUser();
   let data = (userList[0].nombreUsuario,userLogin.value,passLogin.value);
   if (!data) {
-    alert("Usuario y/o contraseña erróneos");
+    Swal.fire({
+      title: "Error!",
+      text: "nombre de usuario y/o contraseña incorrecta",
+      icon: "error",
+      confirmButtonText: "Ok",
+    });
   } else {
     if (recordar.checked) {
       guardarDatos(userLogin.value, localStorage);
@@ -82,7 +86,7 @@ function beginLog() {
     }
   }
   modal.hide();
-  presentarInfo(toggles, 'd-none');
+
 }
 
 function validacion() {
@@ -115,11 +119,16 @@ function userLogged(usuario) {
 }
 
 function saludar(usuario) {
-  nombreUsuario.innerHTML = `Bienvenido/a, <span>${"usuario".nombre}</span>`;
+  userName.innerHTML = `Bienvenid@, <span>${userList[0].nombre}</span>`;
+  presentarInfo(toggles, 'd-none');
 }
 
-function guardarDatos(usuario) {
-  localStorage.setItem("usuario", JSON.stringify(userList));
+function guardarDatos(usuario, storage) {
+  storage.setItem("usuario", JSON.stringify(userList));
+}
+function borrarDatos() {
+  localStorage.clear();
+  sessionStorage.clear();
 }
 function getUser(usuario) {
   let usuarioReg = JSON.parse(localStorage.getItem("usuario"));
@@ -130,3 +139,12 @@ function getUser(usuario) {
     return usuarioReg;
   }
 }
+function recuperarUsuario(localStorage) {
+  let usuarioEnStorage = JSON.parse(localStorage.getItem('usuario'));
+  return usuarioEnStorage;
+}
+btnLogout.addEventListener('click', () => {
+  borrarDatos();
+  presentarInfo(toggles, 'd-none');
+});
+window.onload = () => userLogged(recuperarUsuario(localStorage)); 
