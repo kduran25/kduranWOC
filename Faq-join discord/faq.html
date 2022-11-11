@@ -59,7 +59,7 @@
           </form>
  
 </header>
-<main class="container">
+<main class="con">
   <section id="guest" class="toggles">
       <div class="modal " id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -91,7 +91,6 @@
   </section>
 
         <fieldset class="toggles">
-            <div class="clearfix"></div>
             <form class="row g-3 needs-validation" novalidate>
                 <div class="col-md-4">
                   <label for="validationCustom01" class="form-label">First name</label>
@@ -118,8 +117,23 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <label for="validationCustom03" class="form-label">City</label>
-                  <input type="text" class="form-control" id="validationCustom03" >
+                    <label>Provincias</label>
+                    <select id="selectProvincias">
+                      <option value="Elige una provincia">Elige una provincia</option>
+                    </select>
+                    <span></span>
+                
+                    <label>Municipios</label>
+                    <select id="selectMunicipios">
+                      <option value="Elige un municipio">Elige un municipio</option>
+                    </select>
+                    <span></span>
+                
+                    <label>Localidades</label>
+                    <select id="selectLocalidades">
+                      <option value="Elige una localidad">Elige una localidad</option>
+                    </select>
+                    <span></span>
                   <div class="invalid-feedback">
                     Please provide a valid city.
                   </div>

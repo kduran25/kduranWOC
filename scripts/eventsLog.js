@@ -11,13 +11,87 @@ const regName = document.getElementById("validationCustom01"),
   modalEl = document.getElementById("modalLogin"),
   modal = new bootstrap.Modal(modalEl),
   toggles = document.querySelectorAll(".toggles");
+const doc = document;
+const selectProv = document.getElementById("selectProvincias");
+const selectMun = document.getElementById("selectMunicipios");
+const selectLoca = document.getElementById("selectLocalidades");
 
 userList = [];
 
-function persona(nombre, apellido, nombreUsuario, contraseña) {
+function provincia() {
+  fetch("https://apis.datos.gob.ar/georef/api/provincias")
+    .then((res) => (res.ok ? res.json() : Promise.reject(res)))
+    .then((json) => {
+      let options = `<option value="Elige una provincia">Elige una provincia</option>`;
+
+      json.provincias.forEach(
+        (el) =>
+          (options += `<option value="${el.nombre}">${el.nombre}</option>`)
+      );
+
+      selectProv.innerHTML = options;
+    });
+}
+
+doc.addEventListener("DOMContentLoaded", provincia);
+
+function municipio(provincia) {
+  fetch(
+    `https://apis.datos.gob.ar/georef/api/municipios?provincia=${provincia}&max=5`
+  )
+    .then((res) => (res.ok ? res.json() : Promise.reject(res)))
+    .then((json) => {
+      let options = `<option value="Elige un municipio">Elige un municipio</option>`;
+
+      json.municipios.forEach(
+        (el) => (options += `<option value="${el.id}">${el.nombre}</option>`)
+      );
+
+      selectMun.innerHTML = options;
+    });
+}
+
+selectProv.addEventListener("change", (e) => {
+  municipio(e.target.value);
+  console.log(e.target.value);
+});
+
+function localidad(municipio) {
+  fetch(
+    `https://apis.datos.gob.ar/georef/api/localidades?municipio=${municipio}&max=5`
+  )
+    .then((res) => (res.ok ? res.json() : Promise.reject(res)))
+    .then((json) => {
+      let options = `<option value="Elige una localidad">Elige una localidad</option>`;
+
+      json.localidades.forEach(
+        (el) => (options += `<option value="${el.id}">${el.nombre}</option>`)
+      );
+
+      selectLoca.innerHTML = options;
+    });
+}
+
+selectMun.addEventListener("change", (e) => {
+  localidad(e.target.value);
+  console.log(e.target.value);
+});
+
+function persona(
+  nombre,
+  apellido,
+  nombreUsuario,
+  Provincia,
+  Municipio,
+  Localidad,
+  contraseña
+) {
   (this.nombre = nombre),
     (this.apellido = apellido),
     (this.nombreUsuario = nombreUsuario),
+    (this.prov = Provincia),
+    (this.mun = Municipio),
+    (this.loca = Localidad),
     (this.contraseña = contraseña);
 }
 
@@ -32,6 +106,9 @@ let Capturar = function () {
     regName.value,
     regLastName.value,
     regUserName.value,
+    selectProvincias.value,
+    selectMunicipios.value,
+    selectLocalidades.value,
     regPassword.value
   );
 
@@ -52,8 +129,18 @@ let Capturar = function () {
   } else {
     userList.push(persona1);
     console.log(userList);
+    Swal.fire({
+      title: "Cool!",
+      text: "Te registraste exitosamente! Ahora inicia sesion",
+      imageUrl:
+        "https://as1.ftcdn.net/v2/jpg/05/39/86/88/1000_F_539868815_71P9i5WCzqZXK3COH9Dx4HM0CXzMGn16.webp",
+      imageWidth: 300,
+      imageHeight: 300,
+      imageAlt: "Custom image",
+    });
   }
-};
+  }
+
 register.addEventListener("click", (e) => {
   e.preventDefault();
   Capturar();
@@ -68,7 +155,7 @@ const usuario1 = new usuario(userLogin.value, passLogin.value);
 
 function beginLog() {
   getUser();
-  let data = (userList[0].nombreUsuario,userLogin.value,passLogin.value);
+  let data = (userList[0].nombreUsuario, userLogin.value, passLogin.value);
   if (!data) {
     Swal.fire({
       title: "Error!",
@@ -86,28 +173,31 @@ function beginLog() {
     }
   }
   modal.hide();
-
 }
 
 function validacion() {
-  if (userLogin.value != userList[0].nombreUsuario || passLogin.value != userList[0].contraseña) {
+  if (
+    userLogin.value != userList[0].nombreUsuario ||
+    passLogin.value != userList[0].contraseña
+  ) {
     alert("Usuario y/o contraseña erróneos");
     return false;
-  }  else{ if (recordar.checked) {
-        guardarDatos(userLogin.value, localStorage);
-        saludar(getUser(localStorage));
-      } else {
+  } else {
+    if (recordar.checked) {
+      guardarDatos(userLogin.value, localStorage);
+      saludar(getUser(localStorage));
+    } else {
       console.log("datos ingresados correctamente");
       guardarDatos(userLogin.value, sessionStorage);
       saludar(getUser(sessionStorage));
       userLogged();
       return true;
     }
-}
+  }
 }
 function presentarInfo(array, clase) {
-  array.forEach(element => {
-      element.classList.toggle(clase);
+  array.forEach((element) => {
+    element.classList.toggle(clase);
   });
 }
 
@@ -120,7 +210,7 @@ function userLogged(usuario) {
 
 function saludar(usuario) {
   userName.innerHTML = `Bienvenid@, <span>${userList[0].nombre}</span>`;
-  presentarInfo(toggles, 'd-none');
+  presentarInfo(toggles, "d-none");
 }
 
 function guardarDatos(usuario, storage) {
@@ -140,11 +230,13 @@ function getUser(usuario) {
   }
 }
 function recuperarUsuario(localStorage) {
-  let usuarioEnStorage = JSON.parse(localStorage.getItem('usuario'));
+  let usuarioEnStorage = JSON.parse(localStorage.getItem("usuario"));
   return usuarioEnStorage;
 }
-btnLogout.addEventListener('click', () => {
+btnLogout.addEventListener("click", () => {
   borrarDatos();
-  presentarInfo(toggles, 'd-none');
+  presentarInfo(toggles, "d-none");
 });
-window.onload = () => userLogged(recuperarUsuario(localStorage)); 
+window.onload = () => userLogged(recuperarUsuario(localStorage));
+
+

@@ -204,8 +204,20 @@ img{
     width: 25px;
 }
 
+.col-md-6 {
+    height: 200px;
+    width: 200px;
+}
 
-
+.col-md-3 {
+    margin-left: 10%;
+}
+#selectMunicipios{
+    width: 365px;
+}
+#selectLocalidades{
+    width: 365px;
+}
 
 @media only screen and (max-width: 360px) {
     fieldset {
